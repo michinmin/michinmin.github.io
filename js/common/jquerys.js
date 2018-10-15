@@ -5,7 +5,7 @@ $(function(){
 		if( filter.indexOf(navigator.platform.toLowerCase())<0 ){
 			//alert("device")
 		} else {
-			/*$('#fullpage').fullpage({
+			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage'],
 				navigation: true,
 				menu: '#menu',
