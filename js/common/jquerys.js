@@ -37,8 +37,8 @@ $(function(){
 			
 					//section 3 is using the state classes to fire the animation
 					//see the CSS code above!
-				}
-			});*/
+				}*/
+			});
 		}
 	}
 	/* 맨위로 */
