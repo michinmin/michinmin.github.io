@@ -1,0 +1,1088 @@
+/* PC 수정사항 */
+ .m_header{
+    display:none;
+}
+/* #all_menu{
+    display:none;
+}
+ */
+ div.m_fgo_list{
+    display: none;
+}
+ a.aroTop{
+    display: none;
+}
+ .header div.tel_info p a{
+    cursor: default;
+}
+ .header ul.utilmenu li.lang #google_translate_element{
+    /* overflow: hidden;
+    width: 80px;
+     */
+}
+ .header ul.utilmenu li.lang #google_translate_element .skiptranslate.goog-te-gadget select.goog-te-combo{
+    margin-right: 5px;
+    padding:1px 2px;
+    width: 75px;
+}
+ @media only screen and (max-width:900px) {
+    /* 태블릿 이하*/
+    /* 행사소식 */
+     .top_info_wrap .top_info_left {
+         display:none;
+    }
+    /* 동영상 플레이어 */
+     .tviframe {
+         width:auto;
+        margin:0 auto;
+        text-align:center;
+        border:6px solid #aaa;
+        background:#fefefe;
+        box-shadow: 5px 5px 5px #888888;
+        background:#efefef;
+        height:auto;
+        border-radius:20px;
+    }
+     .searchResult {
+         padding-left:0px;
+        width:100%;
+    }
+	.tc04.searchResult{padding-right: 0;}
+     .fc03 .contents{
+        padding-top:0;
+        float: none;
+    }
+    /* 서브 메뉴 */
+     .fc03 aside{
+        overflow: hidden;
+    }
+     .fc03 aside.aside_m1 {
+         border:1px solid #3eaada;
+         border-radius:15px;
+    }
+     .fc03 aside.aside_m2 {
+         border:1px solid #0fa8ee;
+         border-radius:15px;
+    }
+     .fc03 aside.aside_m3 {
+         border:1px solid #3cbdbd;
+         border-radius:15px;
+    }
+     .fc03 aside.aside_m4 {
+         border:1px solid #c8b63b;
+         border-radius:15px;
+    }
+     .fc03 aside.aside_m5 {
+         border:1px solid #a5a628;
+         border-radius:15px;
+    }
+     .fc03 aside.aside_m6 {
+         border:1px solid #96b227;
+         border-radius:15px;
+    }
+
+	.fc03 aside.aside_m7 {
+         border:1px solid #96b227;
+         border-radius:15px;
+    }
+     section.mBody .fc03 {
+         border-left:0px solid #fff;
+    }
+     .fc03 .contents {
+         border-left:0px solid #fff;
+    }
+     .ng06 li.on ul.sub li {
+         border-bottom:0;
+    }
+     .ng06 li.on ul.sub li a.nwin{
+        background-position: 8px center;
+    }
+    /* 갤러리 */
+     .ct_tc14 p img {
+         width:100%;
+    }
+     .gallery_as_list {
+         margin-left:0;
+    }
+     .gallery_as_list li {
+        float:left;
+         width:48%;
+         overflow:hidden;
+         text-align:center;
+        margin:1%;
+    }
+     .gallery_as_list li dt {
+        height:150px;
+        overflow:hidden;
+    }
+     .gallery_as_list li img {
+        width:100%;
+    }
+     .gallery_as_list li:hover div.cover {
+         display:none;
+    }
+     .fesitival_main {
+         width:98%;
+        margin:0 auto;
+        padding:0px;
+        margin-top:0px;
+    }
+     .fesitival_left {
+         float:none;
+        display:none;
+    }
+     .fesitival_right {
+         float:none;
+        width:100%;
+        font-size:12pt;
+    }
+     .festival_as_list li {
+         float:left;
+         width:48%;
+         margin:1%;
+    }
+     .festival_as_list li img {
+         width:100%;
+    }
+     .festival_as_list li.edu div.cover {
+         border-left:0px solid #fff;
+        border-right:0px solid #fff;
+         border-top:0px solid #fff;
+        border-bottom:0px solid #fff;
+    }
+     .festival_as_list li div.cover {
+         position:absolute;
+         left:0px;
+         top:0;
+         width:100%;
+        display:block;
+    }
+     .th02 {
+         height:60px;
+    }
+    /*iphone에서 input */
+     input, textarea {
+         -webkit-appearance: none;
+         -webkit-border-radius: 0;
+         border-radius: 0;
+    }
+     select {
+         -webkit-border-radius: 0 !important;
+         border-radius: 0 !important;
+         padding: 2px;
+         border: solid 1px #CCC;
+         background: #FFF !important;
+         background-image: none;
+    }
+     input[type="checkbox"], input[type="radio"] {
+         position: relative;
+         top: 2px;
+         box-sizing: border-box;
+         padding: 0;
+    }
+     input[type="checkbox"] {
+         -webkit-appearance: checkbox;
+    }
+     input[type="radio"] {
+         -webkit-appearance: radio;
+         -webkit-border-radius: 50%;
+    }
+     input {
+         -webkit-ime-mode: auto;
+         -moz-ime-mode: auto;
+         -ms-ime-mode: auto;
+         ime-mode: auto;
+    }
+     html, body {
+         height: 100%;
+    }
+     html, body {
+         position: relative;
+         height: 100%;
+    }
+     .ct_fc02 .right, .ct_fc02 .left{
+         width: auto;
+         float: none;
+        padding-bottom: 20px;
+    }
+     .fc03 aside {
+         width: 100%;
+    }
+     .ng06 {
+         width: 100%;
+    }
+     .ng07 {
+         display: none;
+    }
+    /* 본문 / 페이지타이틀 */
+     .th03 {
+        display: block;
+        padding-left: 0;
+    }
+     .th03 h2{
+        line-height: normal;
+        font-size: 21px;
+    }
+     .th03 h2, .th03 h2 a{
+        padding-right: 0;
+    }
+     .tc04_01{
+        background: none;
+    }
+     .tc04 ul.info{
+        overflow:hidden;
+        line-height:normal;
+        height:auto;
+        float: none;
+        border-bottom: 1px solid #c5dcea;
+        padding-bottom: 11px;
+        padding-top: 10px;
+        position: relative;
+    }
+     .tc04 ul.info li{
+        float:none;
+        margin-right:0;
+        font-size:11px;
+        box-sizing:border-box;
+        width: auto;
+        display: inline-block;
+        margin-top: 0;
+        letter-spacing: -1px;
+    }
+     .tc04 ul.info li.date{
+        display: block;
+    }
+     .tc04 ul.info li.sns{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 7px;
+        margin-top: 0;
+    }
+     .tc04 ul.info a.snbtn{
+        margin-right: 0;
+        margin-left: 4px;
+    }
+     .tc04 ul.info li.date, .tc04 ul.info li.dptment{
+        padding-left:14px;
+    }
+     .tc04 .info .sns{
+        /* display:none;
+         */
+    }
+     section.mBody .fc03 {
+         border-right: 0px solid #fff;
+    }
+     section.mBody .fc03 {
+         width: 95%;
+    }
+     .fc03 .contents {
+         width: 98%;
+         margin-left: 5px;
+    }
+     .fc03 .contents .customContents, .fc03 .contents .uiArea {
+         width: 100%;
+    }
+     .container {
+         margin: 0 auto;
+         background: #fff;
+         padding: 0;
+         box-shadow: none;
+        /*box-shadow:5px 0 70px rgba(0,0,0,0.6);
+        */
+    }
+     .contentArea {
+         padding: 0px;
+         min-height: 0;
+         height: auto !important;
+         height: 0;
+         overflow: hidden;
+    }
+    /*.sb-slidebar {
+         position:absolute;
+    }
+    */
+     .pc {
+         margin: 0 auto;
+         position: relative;
+    }
+     body, input, textarea, select, button, table {
+         font-family: 'Nanum Gothic' !important;
+    }
+     .tb_mb {
+         font-size: 1em !important;
+    }
+     .lc06 th:nth-child(1) {
+        /* display: none;
+         */
+    }
+     .lc06 td:nth-child(1) {
+        /* display: none;
+         */
+    }
+     .lc06 td:nth-child(2) {
+         border-left: 1px solid #fff;
+    }
+     .lc06 th:nth-child(3) {
+        /* display: none;
+         */
+    }
+     .lc06 td:nth-child(3) {
+        /* display: none;
+         */
+    }
+     .lc06 th:nth-child(6) {
+         display: none;
+    }
+     .lc06 td:nth-child(6) {
+         display: none;
+    }
+     #wrap {
+         min-width: 100%;
+    }
+     span.m_br {
+         display: block;
+    }
+     .sb-slidebar {
+         width: 100%;
+         right: 0;
+    }
+     a.aroTop {
+         width: 50px;
+         height: 50px;
+         background: url('../../img/m/aro_top.png') center no-repeat;
+         -webkit-background-size: 50px;
+         background-size: 50px;
+         position: fixed;
+         bottom: 10px;
+         right: 10px;
+         cursor: pointer;
+         display: none;
+         text-indent: -999em;
+         cursor: pointer;
+         z-index: 999;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         border-radius: 50%;
+         background-color: #9aec0a;
+    }
+    /********************* fixed-top **********************/
+     #fixed-top {
+         height: 133px;
+         z-index: 99;
+    }
+     #sb-site.top-padding {
+         padding-top: 100px;
+         position: relative;
+         z-index: 0;
+    }
+     .fix_wrap {
+         width: 100%;
+         margin: 0 auto;
+    }
+    /********************* .header *********************/
+     .m_header {
+         display: block;
+         height: 70px;
+         overflow: hidden;
+         position: relative;
+         background: #FFF;
+    }
+     .m_header img {
+    }
+     .m_header:before, .header:after {
+         content: " ";
+         display: table;
+    }
+     .m_header:after {
+         clear: both;
+    }
+     .m_header h1 {
+    }
+     .m_header h1 a.logo {
+         display: block;
+         padding: 0px;
+         width: 221px;
+         margin: 0 auto;
+         text-align: center;
+         padding-top: 18px;
+    }
+     .m_header .menu_open {
+         width: 52px;
+         display: block;
+         position: absolute;
+         top: 9px;
+         right: 10px;
+         z-index: 1;
+         cursor: pointer;
+         height: 52px;
+         background: url('../../img/m/top_menu.gif');
+         background-size: contain;
+    }
+     .m_header .menu_open:hover {
+         background: url('../../img/m/top_menu_hov.gif');
+         background-size: contain;
+    }
+     .m_header .m_srch_btn {
+         width: 52px;
+         height: 52px;
+         background: #005ead;
+         cursor: pointer;
+         display: block;
+         position: absolute;
+         top: 9px;
+         left: 10px;
+         background: url('../../img/m/srch_btn.gif');
+         background-size: contain;
+    }
+    /* 새로 추가 */
+     .fix_wrap .gnb_fixed {
+         position:fixed;
+        top:0;
+        box-shadow:0px 1px 2px #ccc;
+         width:100%;
+         z-index:5;
+         -webkit-animation-duration: 1s;
+         animation-duration: 1s;
+         -webkit-animation-name: fadeInDown;
+         animation-name: fadeInDown;
+         height:50px;
+         background:#fefefe;
+        /* top:3px;
+         border-radius:18px;
+         width:98%;
+         left:1%;
+         */
+    }
+     .fix_wrap .gnb_fixed .m_srch_btn {
+         width:32px;
+         height:32px;
+    }
+     .fix_wrap .gnb_fixed .menu_open {
+         width:32px;
+         height:32px;
+    }
+     .fix_wrap .gnb_fixed h1 a.logo {
+         padding-top:10px;
+    }
+     .fix_wrap .gnb_fixed h1 a.logo img {
+         width:130px;
+    }
+    /* .m_header .m_srch_btn:hover {
+         background:url('/sites/all/themes/asan/img/m/srch_btn_hov.gif');
+    }
+     */
+     .topSearch {
+         z-index:10;
+         right: 0;
+         padding: 10px;
+         top: 70px;
+         left: 0;
+         background: #0062ae;
+         position: absolute;
+         overflow: hidden;
+         height: 45px;
+         width: auto;
+         padding-right: 60px;
+         display: none;
+    }
+     .topSearch input.text {
+         background: #FFF;
+         width: 100%;
+         float: none;
+         position: relative;
+         top: auto;
+         left: auto;
+         height: 40px;
+         right: auto;
+         display: block;
+         border: none;
+         line-height: 40px;
+         text-align: center;
+         font-size: 1em;
+    }
+     .topSearch input.image,
+	 .topSearch .sch_btn{
+         float: none;
+         width: 40px;
+         height: 40px;
+         display: block;
+         position: absolute;
+         top: 10px;
+         right: 10px;
+		 background: url('../../img/m/srch_btn.gif') center no-repeat;
+		 text-indent: -999em;font-size: 0;cursor: pointer;border: 0;
+
+    }
+     .topSearch legend, .topSearch label {
+         display: none;
+    }
+     .topSearch fieldset {
+         padding: 0;
+         margin: 0;
+         border: none;
+    }
+     .topSearch form {
+         overflow: hidden;
+         padding: 0;
+         margin: 0;
+    }
+     .header div.header_center, nav.header {
+         display: none;
+    }
+     .header div.top_wrap {
+         border-bottom: 1px solid #b7b7b7;
+         background: #FFF;
+         height:66px;
+    }
+     .header div.top_inner {
+         padding: 0;
+         line-height: 29px;
+         width: auto;
+         top:33px;
+         border-top:1px solid #b7b7b7;
+    }
+     .header div.tel_info {
+         padding-top: 0px;
+         padding-left: 10px;
+    }
+     .header div.tel_info p {
+         padding-left: 28px;
+         background: url('../../img/common/top_icon.jpg') 0 55% no-repeat;
+         font-weight: bold;
+    }
+     .header div.tel_info span.tit {
+         position: relative;
+         top: -1px;
+         font-size: 0.78em;
+         color: #010101;
+    }
+     .header div.tel_info span.blue {
+         font-size: 1.0em;
+         color: #1f80d2;
+    }
+     .header div.tel_info span.green {
+         font-size: 1.0em;
+         color: #6cb337;
+    }
+     .header div.tel_info span {
+         display: inline-block;
+         line-height: 29px;
+    }
+     .header div.tel_info p a {
+         cursor: pointer;
+    }
+     .header ul.topmenu {
+         top:-34px;
+    }
+     .header ul.zoom {
+         display: none;
+    }
+     .header ul.utilmenu {
+         position: absolute;
+         top: 0px;
+         right: 0px;
+         left: auto;
+    }
+     .header ul.utilmenu li {
+        /* display: none;
+         */
+    }
+     .header ul.utilmenu a {
+         font-size: 12px;
+         font-weight: normal;
+         color: #000;
+    }
+     .header ul.utilmenu li.lang {
+         display: block;
+         width: auto;
+         padding-right: 8px;
+         display:none;
+    }
+     .header ul.utilmenu li {
+         float: left;
+         padding-left: 0px;
+         margin-left: 0px;
+         padding-right:10px;
+         background: none;
+    }
+     .header ul.utilmenu li.lang #google_translate_element {
+        /* overflow: hidden;
+         width: 90px;
+         */
+    }
+     .header ul.utilmenu li.lang #google_translate_element .skiptranslate.goog-te-gadget select.goog-te-combo {
+         margin-right: 5px;
+         padding: 1px 2px;
+         width: 90px;
+    }
+     .header div.lang_sel_wrap {
+         position: absolute;
+         left: 0;
+         top: 34px;
+         width: 100%;
+         padding: 15px 0 17px 0;
+         background: #fff;
+         display: none;
+         z-index: 1;
+    }
+     .header ul.lang_sel_list {
+         margin: 0 auto;
+         width: 100%;
+    }
+     .header ul.lang_sel_list:after {
+         content: "";
+         display: block;
+         clear: both;
+    }
+     .header ul.lang_sel_list > li {
+         float: left;
+         width: 109px;
+    }
+     .header ul.lang_sel_list > li.li4 {
+         width: 119px;
+    }
+     .header ul.lang_sel_list ul li {
+         margin-top: 7px;
+    }
+     .header ul.lang_sel_list ul li:first-child {
+         margin-top: 0;
+    }
+     .header ul.lang_sel_list a {
+         display: inline-block;
+         padding: 3px;
+         font-size: 13px;
+         color: #000;
+    }
+     .header ul.lang_sel_list a:hover {
+         color: #fff;
+         background: #1f80d2;
+    }
+     div.m_fgo_list {
+         display: block;
+    }
+     #footer {
+         position: relative;
+    }
+     #footer div.fgo_wrap {
+         position: relative;
+         width: auto;
+         height: auto;
+         background: url('../../img/common/foot_go_blue.jpg') repeat;
+         z-index: 1;
+         overflow: hidden;
+         padding: 10px;
+    }
+     #footer div.fgo_list_wrap {
+         display: none;
+    }
+     #footer div.fgo_wrap .m_fgo_list {
+         margin: 0;
+         width: auto;
+         padding-top: 0px;
+         padding: 0;
+    }
+     #footer div.fgo_wrap .m_fgo_list:after {
+         content: "";
+         display: block;
+         clear: both;
+    }
+     #footer div.fgo_wrap .m_fgo_list {
+         float: none;
+         margin-left: 0px;
+         padding-bottom: 0px;
+         background: #FFF;
+         background: rgba(255,255,255,0.75);
+         margin-bottom: 10px;
+         -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+         border-radius: 5px;
+    }
+     #footer div.fgo_wrap .m_fgo_list a {
+         position: relative;
+         display: block;
+         width: auto;
+         height: 42px;
+         padding-left: 53px;
+         line-height: 42px;
+         font-size: 1em;
+         color: #333;
+         background: url('../../img/m/fgo_btn_off.png') 15px center no-repeat;
+    }
+     #footer div.fgo_wrap .m_fgo_list a.close {
+         background: #FFF url('../../img/m/fgo_btn_on.png') 15px center no-repeat;
+         -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+         border-radius: 5px;
+    }
+    /* 삼각형 추가*/
+     #footer div.fgo_wrap .m_fgo_list a span {
+         position: absolute;
+         left: 49%;
+         margin-left: -16px;
+         bottom: -7px;
+         display: none;
+    }
+     #footer div.fgo_wrap .m_fgo_list a.close span {
+         display: block;
+         width: 0;
+         height: 0;
+         border-style: solid;
+         border-width: 9px 8px 0 8px;
+         border-color: #FFF transparent transparent transparent;
+         margin: 0 auto;
+    }
+     #footer div.fgo_menu_wrap {
+         position: static;
+         left: auto;
+         bottom: auto;
+         width: 100%;
+         background: #7f7f7f;
+         padding: 5px 0 20px 0;
+         display: none;
+         margin-bottom: 10px;
+         z-index: 3;
+         border-radius: 10px;
+    }
+     #footer ul.fgo_menu {
+         margin: 0;
+         width: auto;
+    }
+     #footer ul.fgo_menu:after {
+         content: "";
+         display: block;
+         clear: both;
+    }
+     #footer ul.fgo_menu > li {
+         float: none;
+         border-left: none;
+    }
+     #footer div.fgo1 ul.fgo_menu > li {
+         min-height: 100%;
+    }
+     #footer div.fgo2 ul.fgo_menu > li {
+         min-height: 100%;
+    }
+     #footer div.fgo4 ul.fgo_menu > li {
+         margin-left: 0;
+    }
+     #footer ul.fgo_menu > li > a {
+         /* padding-left: 20px;
+         font-size: 0.9em;
+         color: #fbffcd;
+         height: auto;
+         line-height: normal;
+         padding-bottom: 5px;
+         padding-top: 10px;
+         display: block; */
+		 margin-left: 10px;
+         font-size: 12px;
+         color: #FFF;
+         height: auto;
+         line-height: 23px;
+         padding: 0px 10px;
+		 border-radius: 2.5em;
+         display: inline-block;
+		 background: #1A63A6;
+		 margin-top: 10px;
+    }
+     #footer ul.fgo_inner {
+         margin-top: 0;
+         width: auto;
+    }
+     #footer ul.fgo_inner.has2 {
+         width: auto;
+    }
+     #footer ul.fgo_inner.has4 {
+         width: auto;
+    }
+     #footer ul.fgo_inner.has5 {
+         width: auto;
+    }
+     #footer ul.fgo_inner:after {
+         content: "";
+         display: block;
+         clear: both;
+    }
+     #footer ul.fgo_inner > li {
+         float: none;
+         width: auto;
+         padding-left: 0px;
+         border-left: 0;
+       /*   width: 49%; */
+    }
+     #footer ul.fgo_inner.has5 > li {
+         /* width: 33.3%; */width: auto;
+    }
+     #footer ul.fgo_inner > li ul {
+         padding-left: 20px;
+    }
+     #footer ul.fgo_inner > li:first-child {
+         border-left: 0;
+    }
+     #footer ul.fgo_inner ul li {
+         margin-top: 0;
+    }
+     #footer ul.fgo_inner ul li:first-child {
+         margin-top: 0;
+    }
+     #footer ul.fgo_inner ul a {
+         display: inline-block;
+         padding: 0px;
+         font-size: 0.85em;
+         color: #fff;
+         line-height: 150%;
+    }
+     #footer ul.fgo_inner ul a:hover {
+         background: none;
+    }
+     #footer .fgo_menu_wrap.fgo3 .fgo_menu {
+         /* margin-bottom: -20px; */
+    }
+     #footer .fgo_menu_wrap.fgo3 ul.fgo_inner > li {
+         /* height: 70px; */
+    }
+     #footer div.fgo_menu_wrap.fgo1 {
+    }
+     #footer div.fgo_menu_wrap.fgo2 {
+         bottom: -52px;
+         z-index: 5;
+    }
+     #footer div.fgo_menu_wrap.fgo3 {
+         bottom: -104px;
+         z-index: 5;
+    }
+     #footer div.fgo_menu_wrap.fgo4 {
+         bottom: -156px;
+         z-index: 5;
+    }
+     #footer div.fgo_menu_wrap.fgo5 {
+         bottom: -208px;
+         z-index: 5;
+    }
+    /**/
+     #footer div.foot_bottom {
+         padding: 10px;
+    }
+     #footer div.foot_inner {
+         margin: 0;
+         padding: 20px 0 20px 0;
+         width: auto;
+    }
+     #footer div.foot_inner h2 {
+         display: none;
+    }
+     #footer div.foot_info {
+         float: none;
+         margin-left: 0;
+    }
+     #footer ul.foot_menu {
+         width: auto;
+         margin-bottom: 20px;
+    }
+     #footer ul.foot_menu li {
+         float: none;
+         display: inline-block;
+         padding: 0px;
+         margin-left: 0;
+         background: url('../../img/common/foot_line.jpg') 0 3px no-repeat;
+    }
+     #footer ul.foot_menu li a {
+         font-size: 11px;
+         color: #393939;
+         letter-spacing: -1px;
+         display: inline-block;
+         text-align: center;
+         padding: 0 6px 0 6px;
+    }
+     #footer ul.foot_menu li:first-child {
+         padding-left: 0;
+         margin-left: 0;
+         background: none;
+    }
+     #footer ul.foot_menu li:first-child a {
+         padding-left: 0;
+    }
+     #footer ul.foot_menu li:last-child {
+         display: none;
+    }
+     #footer p.copy {
+         font-size: 11px;
+         color: #898989;
+         line-height: 1.45;
+         letter-spacing: 0px;
+    }
+     #footer p.ac_mark {
+         float: left;
+         padding-top: 20px;
+    }
+     .ng06 li {
+         clear: both;
+    }
+     .ng06 li.on ul.sub li {
+         clear: none;
+         float: left;
+         width: 33%;
+         overflow:hidden;
+    }
+     .ng06 li.on ul.sub li a{
+        font-size: 13px;
+    }
+}
+ @media only screen and (max-width:414px){
+    /* Iphone 6 Plus (414 x 736) 이하 */
+     .tc04 .info .date{
+        /* display:none;
+         */
+    }
+     .ct_tc07 dl dd{
+        font-size:13px;
+        color:#555;
+        font-weight:bold;
+        line-height:25px;
+    }
+     .festival_as_list li {
+         width:100%;
+    }
+     .ng06 li.on ul.sub li {
+        width: 49.5%;
+    }
+     .ng06 li.on ul.sub li a{
+        font-size: 12px;
+    }
+     .ng06 li.on ul.sub li a{
+        padding-left:16px;
+    }
+     .ng06 li.on ul.sub li.on a{
+        background-position: 5px center;
+    }
+     .ng06 li.on ul.sub li a.nwin{
+        background-position: 4px center;
+    }
+     .pc {
+         max-width:100%;
+    }
+     #footer div.foot_info {
+         font-size: 0.938em;
+    }
+     .gallery_as_list li {
+         width:100%;
+        margin-left:0%;
+    }
+}
+ @media only screen and (max-width:412px){
+    /* Nexus 6 (412 x 690) 이하 */
+     .header ul.topmenu {
+        margin-left:-150px;
+    }
+     .header ul.topmenu li a {
+         width:60px;
+         height:33px;
+    }
+     .header ul.topmenu li div.bg {
+         width:60px;
+    }
+}
+ @media only screen and (max-width:384px){
+    /* Lumia 920 (384 x 640) 이하 */
+     #footer div.foot_info {
+         font-size: 0.875em;
+    }
+}
+ @media only screen and (max-width:375px){
+    /* Iphone 6 (375 x 667) 이하 */
+    /*#footer div.foot_info {
+         font-size: 0.813em;
+    }
+    */
+     #footer div.foot_inner {
+         padding:10px 0 10px 0;
+    }
+     #all_menu h2.sb-close {
+         height: 90px;
+    }
+     #fixed-top {
+         height: 133px;
+         z-index: 99;
+    }
+     #sb-site.top-padding {
+         padding-top: 90px;
+         position: relative;
+         z-index: 0;
+    }
+     .fix_wrap{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+     .m_header{
+        height:60px;
+    }
+     .m_header h1 a.logo {
+        width:205px;
+        padding-top: 12px;
+    }
+     .m_header .menu_open{
+        width:42px;
+         top:9px;
+         height:42px;
+    }
+     .m_header .m_srch_btn{
+        width:42px;
+        height:42px;
+         top:9px;
+    }
+     .topSearch{
+        right:0;
+        padding:10px;
+        top:60px;
+    }
+}
+ @media only screen and (max-width:360px){
+    /* Galaxy S6 (360 x 640) 이하 */
+     #footer ul.foot_menu li a {
+         padding: 0 4px 0 7px;
+    }
+}
+ @media only screen and (max-width:320px){
+    /* Iphone 5 (320 x 568) 이하 */
+     .header div.tel_info span.tit {
+         display:none;
+    }
+     #footer ul.foot_menu {
+         width:auto;
+         margin-bottom:15px;
+        overflow: hidden;
+    }
+     #footer ul.foot_menu li {
+        background: none;
+    }
+     #footer ul.foot_menu li a {
+         font-size: 0.875em;
+        padding: 0 3px 0 4px;
+    }
+     #footer ul.fgo_inner > li ul{
+        padding-left: 10px;
+    }
+     #footer ul.fgo_inner ul a {
+         display:inline-block;
+         padding:0px;
+         font-size:0.813em;
+         color:#fff;
+         line-height: 150%;
+    }
+     #footer .fgo_menu_wrap.fgo2 ul.fgo_inner.has2>li:first-child >ul:first-child>li:first-child a {
+         letter-spacing: -1px;
+    }
+     #footer p.copy{
+        letter-spacing: -1px;
+    }
+     #footer p.copy .m_br{
+        display: none;
+    }
+}
+ .m_header h1 a.logo {
+    width:185px;
+    padding-top: 15px;
+}
+ 

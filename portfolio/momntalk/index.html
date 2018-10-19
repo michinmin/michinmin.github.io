@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>맘앤톡 메인페이지</title>
+    <link rel="shorcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">
+	<script type="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/common/jqdemo.js"></script>
+</head>
+<body>
+    <div class="headerwrap">
+        <div class="header">
+            <div class="navwrap">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="맘앤톡로고">
+                    </a>
+                </h1>
+                <ul class="gnb">
+                    <li class="dep1"><a href="#">교육 매거진</a>
+                        <ul class="dep2">
+                            <li><a href="#">교육 멘토링</a></li>
+                            <li><a href="#">스페셜 칼럼</a></li>
+                            <li><a href="#">교육 이슈</a></li>
+                            <li><a href="#">기자단</a></li>
+                            <li><a href="#">자녀성향검사</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1"><a href="#">커뮤니티</a>
+                        <ul class="dep2">
+                            <li><a href="#">자유게시판</a></li>
+                            <li><a href="#">정보게시판</a></li>
+                            <li><a href="#">익명게시판</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1"><a href="#">이벤트</a>
+                        <ul class="dep2">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">출석체크</a></li>
+                            <li><a href="#">맘앤톡 리서치</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1"><a href="#">포인트몰</a>
+                        <ul class="dep2">    
+                            <li><a href="#">상품보기</a></li>
+                            <li><a href="#">이용안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- //.navwrap -->
+            <div class="utilm">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <!-- //.utilm -->
+            <div class="icons">
+                <ul>
+                    <li class="kakao"><a href="#">카카오스토리</a></li>
+                    <li class="bookmark"><a href="#">즐겨찾기</a></li>
+                    <li class="search"><a href="#">검색</a></li>
+                </ul>
+            </div>
+            <!-- //.icons -->
+        </div>
+    </div>
+    <!-- //.headerwrap -->
+    <div class="visual">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(images/main_bn1.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/main_bn2.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/main_bn3.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <script type="text/javascript" src="js/plugin/swiper-4.3.5.min.js"></script>
+        <script>
+            new Swiper('.swiper-container', {
+                direction: 'horizontal',
+                slidesPerView : 1,
+                spaceBetween : 0,
+                autoplay : {
+                    delay : 3000,
+                },
+                autoplayDisableOnInteraction: true,
+                speed : 1000,
+                loop : true,
+                effect : 'slide',
+                pagination : {
+                    el : '.swiper-pagination',
+                    clickable : true,
+                    type: 'bullets',
+                },
+            })
+        </script>
+        <div class="btn_eduinfo">
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- //.visual -->
+    <div class="container">
+        <div class="main">
+            <div class="main_magazine">
+                <div class="hmagazine">
+                    <h2>교육 매거진</h2>
+                    <a class="pick" href="#">8월 5주차 special pick!</a>
+                    <a class="info" href="#">다가오는 개학! 우리 아이 공부습관 길러주기</a>
+                </div>
+                <div class="glist">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>스페셜 인터뷰</em>
+                                    <img src="images/magazine1.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>조회수 <b style="color:#ef4758;">146</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>스페셜 인터뷰</em>
+                                    <img src="images/magazine2.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>조회수 <b style="color:#ef4758;">146</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>스페셜 인터뷰</em>
+                                    <img src="images/magazine3.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>조회수 <b style="color:#ef4758;">146</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>스페셜 인터뷰</em>
+                                    <img src="images/magazine4.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>조회수 <b style="color:#ef4758;">146</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //.main_magazine -->
+            <div class="main_bn1">
+                <a href="#"></a>
+            </div>
+            <!-- //.main_bn1 -->
+            <div class="main_event">
+                <div class="hevent">
+                    <h2>이벤트</h2>
+                    <a class="nextpg" href="#">
+                        <img src="images/mevent_next.png" alt="">
+                    </a>
+                    <a class="prevpg" href="#">
+                        <img src="images/mevent_prev.png" alt="">
+                    </a>
+                </div>
+                <div class="elist">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>이벤트</em>
+                                    <img src="images/event1.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>학부모 기자단 3기 모집</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>맘앤톡 학부모 기자단에 지원하세요!</p>
+                                        <p>2018.08.27 ~ 2018.09.19</p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>이벤트</em>
+                                    <img src="images/event2.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>2018.08.27 ~ 2018.09.19</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>이벤트</em>
+                                    <img src="images/event3.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>2018.08.27 ~ 2018.09.19</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="imgbox">
+                                    <em>이벤트</em>
+                                    <img src="images/event4.jpg" alt="">
+                                </div>
+                                <dl>
+                                    <dt>
+                                        <strong>사춘기 아이를 위한 소통 솔루션 2편</strong>
+                                    </dt>
+                                    <dd>
+                                        <p>초등심리 전문가 김선호 멘토의 사춘기 소통법</p>
+                                        <p>2018.08.27 ~ 2018.09.19</b></p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //.main_event -->
+            <div class="main_bn2">
+                <a href="#"></a>
+            </div>
+            <!-- //.main_bn2 -->
+            <div class="main_community">
+                <div class="comhead">
+                    <h2>커뮤니티</h2>
+                </div>
+                <div class="community section">
+                    <div class="cbest">
+                        <a href="#">
+                            <div class="imgbox">
+                                <span>BEST</span>
+                                <img src="images/cbest.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>엄마쉬는 아침은 반찬부터 다르다?</strong>
+                                </dt>
+                                <dd>
+                                    <p class="left">규형제맘</p>
+                                    <p class="right">2018.08.27</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="cboard">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <strong class="purple">자유<br>게시판</strong>
+                                    <p>아침을 뭘로 해줘야 아이들이 잘 먹을까요?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong class="yellow">정보<br>게시판</strong>
+                                    <p>상상의집 교과서 역사 지도책</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong class="orange">익명<br>게시판</strong>
+                                    <p>친구의 눈물...내 마음속 눈물..</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="cboard_bn">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="ctabmenu tabmenu">
+                        <ul>
+                            <li id="tab1" class="on">
+                                <a class="tabnew" href="#">최신글</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">1오늘보니 등급이 슈퍼맘이 됐어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">오이짠지 못먹고 버렸네요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">간장게장 만들었어요~</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">꽂지해수욕장왔어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아이들과 도서관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">태풍이 무사히 지나가서 다행입니다</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">내아이와 함께한 여름이야기..</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">휴강한다더니 정상 수업한다네요.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">롯데리아 포켓몬 스노우볼</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">다들 알고 계셨나요?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CGV생일 혜택</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아들과의 데이트~</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="tab2">
+                                <a class="tabbest" href="#">추천 많은 글</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">2오늘보니 등급이 슈퍼맘이 됐어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">오이짠지 못먹고 버렸네요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">간장게장 만들었어요~</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">꽂지해수욕장왔어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아이들과 도서관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">태풍이 무사히 지나가서 다행입니다</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">내아이와 함께한 여름이야기..</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">휴강한다더니 정상 수업한다네요.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">롯데리아 포켓몬 스노우볼</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">다들 알고 계셨나요?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CGV생일 혜택</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아들과의 데이트~</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="tab3">
+                                <a class="tabcomment" href="#">댓글 많은 글</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">3오늘보니 등급이 슈퍼맘이 됐어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">오이짠지 못먹고 버렸네요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">간장게장 만들었어요~</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">꽂지해수욕장왔어요</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아이들과 도서관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">태풍이 무사히 지나가서 다행입니다</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">내아이와 함께한 여름이야기..</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">휴강한다더니 정상 수업한다네요.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">롯데리아 포켓몬 스노우볼</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">다들 알고 계셨나요?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CGV생일 혜택</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아들과의 데이트~</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- //.main_community -->
+            <div class="main_quick">
+                <a href="#">
+                    <img src="images/quick_bn.jpg" alt="">
+                </a>
+            </div>
+            <!-- //.main_quick -->
+        </div>
+        <!-- //.main -->
+    </div>
+    <!-- //.container -->
+    <div class="footer">
+        <div class="footer_section1">
+            <h2><img src="images/ft_logo.gif" alt="flogo"></h2>
+            <ul>
+                <li><a href="#">맘앤톡 소개</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+            </ul>
+            <div class="addr">
+                <span>(주)비상교육 학부모 커뮤니티 대표자명 : 양태회 주소 : 서울시 구로구 디지털로 33길 48 대륭포스트타워 7차 20층<br>
+                사업자등록번호 : 211-87-07735 통신판매업신고번호: 제 서울구로-2731호
+                TEL : 1544-0554
+                FAX : 02-6970-6149
+                E-mail :<a href="#">momntalk@momntalk.com</a></span>
+                <p>Copyright © 비상교육.  All rights reserved.</p>
+            </div>
+        </div>
+        <div class="footer_section2">
+            <div class="familysite">
+                <p>Family Site</p>
+                <div class="site_first">
+                    <dl>
+                        <dt>비상교재</dt>
+                        <dd>
+                            <a href="#">비상교재</a>,<a href="#">비상공부연구소</a>,<a href="#">완자</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>학원교육</dt>
+                        <dd>
+                            <a href="#">비상아이비츠학원</a>,<a href="#">매쓰캔수학</a>,<br>
+                            <a href="#">비상에듀학원</a>,<a href="#">잉글리쉬아이</a>,<br>
+                            <a href="#">비상플러스러닝</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>학부모교육</dt>
+                        <dd>
+                            <a href="#">맘앤톡</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="site_center">
+                    <dl>
+                        <dt>비상교과서</dt>
+                        <dd>
+                            <a href="#">비상교과서</a>,<a href="#">비바샘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>모의고사</dt>
+                        <dd>
+                            <a href="#">비상모의고사</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>한국어교육</dt>
+                        <dd>
+                            <a href="#">마스터코리안</a>,<a href="#">마스터토픽</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>디지털교육</dt>
+                        <dd>
+                            <a href="#">Wings</a>,<a href="#">디지털 교과서</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>인쇄사업</dt>
+                        <dd>
+                            <a href="#">테라북스</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="site_last">
+                    <dl>
+                        <dt>온라인교육</dt>
+                        <dd>
+                            <a href="#">아이수박씨</a>,<a href="#">수박씨</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>교원연수</dt>
+                        <dd>
+                            <a href="#">티스쿨</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>유아교육</dt>
+                        <dd>
+                            <a href="#">EBS 누리샘</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- //.footer -->
+</body>
+</html>

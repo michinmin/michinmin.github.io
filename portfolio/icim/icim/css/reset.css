@@ -1,0 +1,46 @@
+/* Reset */
+html, body, div, ul, ol, li, dl, dt, dd, p, address, table, tr, thead, tbody, tfoot, th, td, form, caption, legend, label, input, select, textarea, h1, h2, h3, h4, h5, h6, span, i, strong, b, em, a, img, section, header, article, footer, aside, nav{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 13px;
+    font-family: AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕',sans-serif,HelveticaNeue-Light;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: scroll;
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 13px;
+    font-family: AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕',sans-serif,HelveticaNeue-Light;
+    box-sizing: border-box;
+}
+address, em, i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #333;    
+}
+a:hover{
+    color: #333;
+}
+a:active{
+    color: #333;
+}
+a:visited{
+    color: #333;
+}
+a:focus{
+    color: #333;
+}
+img, fieldset{border:0;}
+ul, ol{list-style: none;}
+table{width:100%;}
+table,th,td{border:0;border-spacing:0; border-collapse:collapse;}

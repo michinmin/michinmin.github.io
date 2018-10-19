@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/main/common/css/font/NanumGothic-Bold.eot');
+    src: url('/main/common/css/font/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('/main/common/css/font/NanumGothic-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/main/common/css/font/NanumGothic-Regular.eot');
+    src: url('/main/common/css/font/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'), url('/main/common/css/font/NanumGothic-Regular.woff') format('woff');
+}
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+margin:0;
+padding:0;
+border:0;
+vertical-align:baseline;
+background:transparent;
+}
+
+body{
+font-family:'Nanum Gothic','나눔고딕','맑은 고딕',HelveticaNeue,DroidSans,Sans-serif,Helvetica;  
+font-size:1em;
+line-height:1;
+min-width:320px;
+/*overflow-x:hidden;*/
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ 
+display:block;
+}
+
+nav ul, li{
+list-style:none;
+}
+
+a{
+margin:0;
+padding:0;
+font-size:100%;
+text-decoration:none;
+vertical-align:baseline;
+color:#666;
+background:transparent;
+}
+
+a:hover { 
+ color:#f07800;
+}
+
+
+
+img{
+vertical-align:top;
+
+/*max-width:100%;*/
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+
+input{
+margin:0;
+padding:0;
+box-sizing:content-box;
+vertical-align:top;
+color:#666;
+border-radius:0; 
+/* font-family:'돋움','ng','맑은 고딕',HelveticaNeue,DroidSans,Sans-serif,Helvetica; */
+outline:none;
+}
+
+select, textarea{
+outline:none;
+}
+
+textarea{
+resize:none;
+}
+
+
+.hid{
+position:absolute;
+left:-9999px;
+font-size:0;
+width:0;
+height:0;
+text-indent:-9999px;
+overflow:hidden;
+}
+
+
+/* 아산시청 웹접근성 2017.11 */
+
+caption {display:block !important; width:0 !important; height:0 !important; overflow:hidden !important; font-size:0; text-indent:-99999999999px; visibility:visible !important;}

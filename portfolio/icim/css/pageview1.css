@@ -1,0 +1,79 @@
+.table.form{
+    margin: 0 auto;
+    padding: 0;
+    width: 968px;
+    height: 1943px;
+    border: 1px solid #e8e8e8;
+    background: #f7f7f7;
+}
+.table.area{
+    display: block;
+    width: 78%;
+    margin: 0 auto;
+    padding: 50px 0;    
+}
+span{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #5e5e5e;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+table{
+    
+}
+tr{
+    position: relative;
+    width: 372px;
+    height: 46px;
+    margin-right: 6px;
+    float: left;
+    margin-bottom: 6px;
+    border: 1px solid #ddd;
+}
+tr:nth-child(2), tr:nth-child(4){
+    position: absolute;
+    display: inline-block;
+    width: 372px;
+    float: right;
+}
+tr:nth-child(4){
+    top: 143px;
+}
+tr:nth-child(5){
+    position: absolute;
+    display: block;
+    top: 195px;
+    width: 750px;
+}
+tr:nth-child(6){
+    border: 0;
+}
+th{
+    position: absolute;
+    top: 10px;
+    left: 26px;
+    font-size: 15px;
+}
+td{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+input{
+    border: 0;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    position: absolute;
+    margin: 0 auto;
+    top: 247px;
+    padding: 17px 26px;
+    width: 750px;
+    height: 300px;
+    border-color: #ddd;
+    outline: none;   
+}

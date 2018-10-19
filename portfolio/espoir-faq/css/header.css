@@ -1,0 +1,142 @@
+a:focus{
+	outline: 1px dotted #67e8ff;
+}
+.headerwrap{
+	width: 100%;
+}
+/* header-top */
+.header_topbg{
+	width: 100%;
+	height: 36px;
+	background: #000;
+}
+.header_top{
+	width: 1240px;
+	margin: 0 auto;
+}
+.header_top ul{
+	float: right;
+}
+.header_top ul li{
+	float: left;
+	padding-top: 10px;
+	height: 36px;
+}
+.header_top ul li a{
+	display: block;
+	padding: 0 14px;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+.header_top ul li .lang{
+	color: #fff;
+}
+.lang::after{
+	content: "";
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+    margin-left: 10px;
+	margin-bottom: 2px;
+	background: url(../images/btn_arrow_on.png) no-repeat 0 0;
+}
+/* header-bottom */
+.header_bottom{
+	position: relative;
+	width: 1240px;
+	margin: 0 auto;
+}
+.header_bottom h1{
+	display: inline-block;
+	margin: 25px 70px;
+	text-align: center;
+}
+/* header-bottom-menu */
+.header_bottom .menu{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 40px;
+}
+/* dep1 */
+.header_bottom .menu .dep1{
+	float: left;
+	padding-bottom: 85px;
+}
+.header_bottom .menu .dep1 > a{
+    padding: 0 15px;
+	font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    /* line-height: 100px; */
+    letter-spacing: 0.06em;
+}
+.menu .dep1.on .dep2{
+	/* display: block; */
+}
+/* dep2 */
+.header_bottom .dep2{
+	position: absolute;
+	display: none;
+	top: 80px;
+	left: 0;
+	width: 1240px;
+	height: auto;
+}
+.header_bottom .dep2 li{
+	float: left;
+}
+.header_bottom .dep2 li a{
+	padding: 0 15px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.header_bottom .dep2 .right{
+	margin-top: 7px;
+	float: right;
+}
+.header_bottom .dep2 .right a{
+	font-size: 15px;
+}
+/* header-bottom-searchbox */
+.tsearchbox{
+	display: inline-block;
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+	border-bottom: 1px solid #eee;
+}
+.tsearchbox .ts_btn{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin: 0 10px;
+	background: url(../images/btn_sch_v2.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+.tsearchbox input{
+	border: 0;
+}
+.tsearchbox input::placeholder{
+	font-size: 18px;
+	color: #000;
+}
+.tsearchbox .close_btn{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	margin: 0 10px;
+	background: url(../images/ico_mclose.png) no-repeat 0 4px;
+	background-size: 10px 10px;
+	text-indent: -9999em;
+}
+.basket{
+	position: absolute;
+	display: inline-block;
+	top: 35px;
+	right: 0;
+	width: 20px;
+	height: 25px;
+	background: url(../images/btn_bsk.gif) no-repeat 0 0;
+	text-indent: -999em;
+}

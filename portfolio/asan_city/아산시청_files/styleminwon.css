@@ -1,0 +1,70 @@
+.stepWrap{margin-bottom: 20px;}
+.stepWrap ol{overflow: hidden;}
+.stepWrap li{float: left;width: 25.5%;position: relative;}
+.stepWrap li.last{width: 23%;}
+
+.stepWrap .aro_rt{width: 32px;height: 22px;text-indent: -999em;background:url('../img/cms/aro_rt.gif')  center no-repeat;position: absolute;right: 0;top: 48%;}
+
+.stepWrap .stepBox {text-align: center;border: 1px solid #e0e0e0;margin-right: 32px;}
+.stepWrap .stepBox dt {border-bottom: solid 2px #0061b1;background: #f2f2f2;padding: 15px 0;}
+.stepWrap .stepBox dd {padding: 25px 0 20px;min-height: 80px;}
+.stepWrap .stepBox dd p.ct_td01{margin-bottom: 0;line-height: 135%;padding: 0;}
+.stepWrap .stepBox dd p strong{color: #f00;display: block;font-weight: normal;padding-top: 10px;}
+
+.stepWrap li.last .stepBox{margin-right: 0;}
+.stepWrap li.last .stepBox dd p{padding-top:25px;}
+
+.lineWrap{border: 1px solid #DDD;padding: 30px;margin-bottom: 20px;}
+.lineWrap p>strong{display: block;padding-bottom: 7px;font-size: 15px;color: #276faa;}
+.lineWrap .lineBox{border: 1px solid #c7d1db;}
+.lineWrap .lineBox dl{overflow: hidden;position: relative;padding-left: 270px;}
+.lineWrap .lineBox dt{position: absolute;top: 0;left: 0;bottom: 0;width: 180px;padding: 27px 30px 30px ;background: #eff7ff;text-align: center;color: #0f6296;}
+.lineWrap .lineBox dd{padding: 26px 20px 25px 0}
+
+.lineWrap .lineBox dl.pt5 dt{padding-top: 19px;}
+
+.lineWrap .aro_dn{width: 22px;height: 22px;text-indent: -999em;margin: 0 auto;padding: 12px 0;background:url('../img/cms/aro_dn.gif') center no-repeat;}
+
+.lineWrap .ct_td01{margin-bottom: 0;line-height: 160%;padding: 0;}
+
+.lineWrap  .ct_lc02{margin-bottom:0px;margin-left:0px}
+.lineWrap  .ct_lc02 li{padding-left:7px;line-height: 160%;background-position: 0 9px;padding-bottom: 5px;}
+
+
+@media  screen and (max-width:667px){ /* Iphone 6 가로 (375 x 667) 이하 */
+
+.stepWrap li{width: 26.6%;}
+.stepWrap li.last{width: 20%;}
+.stepWrap .stepBox dd {padding: 15px 10px 10px;min-height: 80px;}
+.stepWrap .stepBox dd br{display: none;}
+.lineWrap{padding: 20px;margin-bottom: 15px;}
+.lineWrap .lineBox dl{padding-left: 220px;}
+.lineWrap .lineBox dt{width: 180px;padding: 20px 10px 20px }
+.lineWrap .lineBox dd{padding: 20px 20px 15px 0}
+.lineWrap .lineBox dl.pt5 dt{padding-top: 12px;}
+
+}
+@media  screen and (max-width:598px){ /* Xperia Z3 가로 (360 x 598) 이하 */
+
+.stepWrap .stepBox dd {padding: 10px 10px 10px;min-height: 110px;}
+.lineWrap .lineBox dl{padding-left: 210px;}
+.lineWrap .lineBox dt{width: 170px;}
+.lineWrap .lineBox dl.pt5 dt{padding-top: 20px;}
+
+}
+@media  screen and (max-width:480px){ /* 세로 Galaxy Note 4 (480 x 853) 이하 */
+
+.stepWrap li{float: none;width: 100%;position: relative;}
+.stepWrap li.last{width: 100%;}
+.stepWrap .aro_rt{position: static;right: auto;top: auto;padding: 10px 0;margin: 0 auto;background:url('../img/cms/aro_dn.gif') center no-repeat;}
+.stepWrap .stepBox {margin-right: 0px;}
+.stepWrap .stepBox dt {padding: 8px 0;}
+.stepWrap .stepBox dd {min-height: 100%;}
+.stepWrap li.last .stepBox dd p{padding-top:0;}
+
+.lineWrap{padding: 10px;}
+.lineWrap .lineBox dl{padding-left: 134px;}
+.lineWrap .lineBox dt{width: 100px;padding: 10px 10px 10px }
+.lineWrap .lineBox dt br{display: none;}
+.lineWrap .lineBox dd{padding: 10px 5px 10px 0}
+.lineWrap .lineBox dl.pt5 dt{padding-top: 10px;letter-spacing: -1px;}

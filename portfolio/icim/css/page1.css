@@ -1,0 +1,385 @@
+.grab{
+    margin: 0 auto;
+    width: 970px;
+    /* background: olive; */
+}
+.grab::after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+/* location 영역 */
+.location .home{
+    display: inline-block;
+    height: 30px;
+    padding: 8px 0 5px 18px;
+    font-size: 14px;
+    color: #6e6e6e;
+    letter-spacing: -1px;
+    background: url(../images/home.png) no-repeat 1px 10px;
+}
+.location .drop1{
+    display: inline-block;
+    height: 30px;
+    padding: 8px 10px 5px 3px;
+    font-size: 14px;
+    color: #6e6e6e;
+    letter-spacing: -1px;
+    background: url(../images/nav_arrow.png) no-repeat 60px 11px;
+}
+.location .drop2{
+    display: inline-block;
+    height: 30px;
+    padding: 15px 20px 5px 3px;
+    font-size: 14px;
+    color: #6e6e6e;
+    letter-spacing: -1px;
+    background: url(../images/nav_arrow.png) no-repeat 82px 17px;
+}
+.location li::after{
+    content: ">";
+    display: inline-block;
+    margin-left: 20px; 
+    color: #6e6e6e;
+    font-size: 14px;
+    font-family: Dotum;
+}
+.location li:last-child::after{
+    display: none;
+}
+.location li a{
+    font-size: inherit;
+    color: inherit;
+}
+.location li a strong{
+    float: left;
+}
+/* 타이틀 영역 */
+.title{
+    position: relative;
+    margin: 0 auto;
+    width: 970px;
+    /* background: red; */
+}
+.title h2{
+    margin: 20px 0;
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    /* font-family:NanumSquareRound; */
+}
+/* 타이틀 sns icon */
+.title .sns.icon{
+    position: absolute;
+    margin: 0;
+    top: 11px;
+    right: 0;
+}
+.sns.icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.sns.icon .twitter{
+    background: url(../images/btn_twitter.png) no-repeat center top;
+}
+.sns.icon .facebook{
+    background: url(../images/btn_facebook.png) no-repeat center top;
+}
+.sns.icon .google{
+    background: url(../images/btn_google.png) no-repeat center top;
+}
+.sns.icon .print{
+    background: url(../images/btn_print.png) no-repeat center top;
+}
+/* 이미지 text 영역 */
+.sectionwrap{
+    margin: 0 auto;
+    padding: 0;
+    width: 970px;
+    height: 100%;
+    border: 1px solid #e8e8e8;
+    background: #f7f7f7;
+}
+.sectionwrap .img.section{
+    padding: 74px 25px 84px 25px;
+    text-align: center;
+    background: url(../images/industry_top.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.img.section .texttop{
+    text-align: center;
+}
+.img.section .texttop strong{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 1.4em;
+    font-weight: normal;
+    color: #fff;
+}
+.img.section .texttop strong em{
+    font-size: inherit;
+    font-weight: bold;
+    color: #ffd615;
+}
+.texttop > p{
+    font-size: 15px;
+    opacity: 0.8;
+    line-height: 1.7em;
+    display: inline-block;
+    margin-bottom: 26px;
+    color: #fff;
+}
+.texttop .ctext{
+    font-size: 18px;
+    margin-bottom: 60px;
+    opacity: 1;
+}
+/* 이미지 숫자 리스트 */
+.nsection{
+    display: inline-block;
+    text-align: center;
+}
+.nlist{
+    display: inline-block;
+    width: 861px;
+    text-align: center;
+}
+.nlist::after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.nsection .nlist > li{
+    float: left;
+    width: 19%;
+    margin-right: 1%; 
+    vertical-align: top;
+}
+.nsection .nlist > li > p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.nsection .nlist > li > a{
+    padding: 2px 32px 2px 20px; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px;
+    background: url(../images/icon_view.png) #ee554f no-repeat 79px 5px; 
+}
+.number{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 88px;
+    height: 88px;
+    font-size: 30px;
+    line-height: 2.8em;
+    font-weight: 600;
+    color: #fff;
+    background: url(../images/step_num_bg.png) no-repeat 0 0;
+}
+.ftext{
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.ftext > p{
+    font-size: inherit;
+    color: inherit;
+}
+/* form */
+.form dl{
+    display: table;
+    float: left;
+    margin-right: 1.15%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 49.53%;
+    border: 1px solid #ddd;
+    background-color: #fff; 
+}
+.form dl:last-child{
+    margin-right: 0;
+}
+.form dt{
+    display: table-cell;
+    width: 100px;
+}
+.form dd{
+    display: table-cell;
+}
+.form{
+    margin: 50px auto;
+    width: 755px;
+    height: 100%;
+}
+.form span{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: right;
+    color: #5e5e5e;
+    font-size: 14px;
+}
+.line3 > dl{
+    display: table;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.textarea textarea{
+    top: 247px;
+    padding: 17px 26px;
+    width: 733px;
+    height: 300px;
+    border-color: #ddd;
+    outline: none;
+    resize: none;
+}
+.ttarea{ 
+    height: 100%;
+}
+.ttarea > dt{
+    position: absolute;
+    top: -999999em;
+}
+.page.section .form::after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+input{
+    border: 0;
+}
+input:focus{
+    outline: none;
+}
+/* upload */
+.file.upload{
+    width: 970px;
+    text-align: center;
+}
+.upload.section{
+    display: inline-block;
+    width: 755px;
+    text-align: center;
+}
+.file_box{
+    margin-top: -39px;
+    padding: 80px 0;
+    width: 100%;
+    height: 245px;
+    border: 1px solid #ddd;
+}
+.file_box > p{
+    font-size: 14px;
+}
+/* 업로드 버튼 왼쪽 */
+.btn_file{
+    position: relative;
+    display: inline-block;
+    width: 755px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.btn_file > .lbtnf{
+    text-align: left;
+    width: 100%;
+}
+.btn_file > .lbtnf > li{
+    display: inline-block;
+    /* width: 500px; */
+}
+.lbtnf > li > input{
+    position: absolute;
+    top: -999999em;
+}
+.lbtnf > li > label{
+    position: absolute;
+    margin: -8px 20px;
+    padding: 8px 8px;
+    border-radius:3px;
+    font-size: 14px;
+    color:white;
+    background:#323a47;
+    border:1px solid #131822;
+}
+.lbtnf > .download{
+    display: inline-block;
+    position: absolute;
+    margin: 12px 130px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/download.png) no-repeat 0 0;
+}
+.lbtnf > .delete{
+    display: inline-block;
+    position: absolute;
+    margin: 12px 170px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/delete.png) no-repeat 0 0;
+}
+/* 업로드 버튼 오른쪽 */
+.btn_file > p,span{
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn_file > p{
+    margin: -5px 20px 0 0;
+}
+/* 하단 텍스트 영역 */
+.ftsection{
+    margin-top: 50px;
+}
+.ftext2{
+    margin-bottom: 50px;
+}
+.ftext2 .fts1{
+    font-size: 15px;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+.ftext2 >a{
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0 15px 0 0;
+    color: #00affe;
+    background: url(../images/arrow_right.png) no-repeat 190px; 
+}
+.ftext2 >a:hover{
+    text-decoration: underline;
+}
+.ftext2 .fts2{
+    font-size: 17px;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+}
+.ftsection > .btn.agree > i{
+    font-size: 15px;
+    font-weight: 600;
+}
+.btnreceipt{
+    margin: 40px 0 200px 0;
+    font-size: 17px;
+    color: #fff;
+}
+.btnreceipt > a{
+    padding: 12px 150px;
+    font-size: inherit;
+    color: inherit;
+    background: #ee554f;
+}
+.btnreceipt > a:hover{
+    background: #cd2529;
+    transition: all .5s;
+}

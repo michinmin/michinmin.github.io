@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* Author: SummitBuilder */
+* {
+	margin:0; padding:0;
+	-webkit-text-size-adjust:none;
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('font/NanumGothic-Bold.eot');
+    src: url('font/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-Bold.woff') format('woff'), url('font/NanumGothic-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: url('font/NanumGothic-ExtraBold.eot');
+    src: url('font/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-ExtraBold.woff') format('woff'), url('font/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/NanumGothic-Regular.eot');
+    src: url('font/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-Regular.woff') format('woff'), url('font/NanumGothic-Regular.ttf') format('truetype');
+}
+body{font-family: 'Nanum Gothic';}
+h1, h2, h3, h4, h5,b,strong,th,dt{font-family: 'Nanum Gothic';}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, select, abbr, address, big, cite, code, del, dfn, img, ins, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, table,  th, td, textarea, input, button { margin: 0; padding: 0;  /*font-family: 'NanumGothic';*/-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  font-family: 'Nanum Gothic';}
+table { border-collapse:collapse; empty-cells:show;border:0 }
+img { border:0 none ;vertical-align: middle;}
+input.type-text:hover, input.type-text:focus, textarea:hover, textarea:focus{ background-color: #ecf0f8; border:solid 1px #a8bdef }
+textarea.type-text:hover, textarea.type-text:focus { background-color: #ecf0f8; border:solid 1px #a8bdef ;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.clear { display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important; }
+div, span, ul, li, img, a { border:0; }
+/* table, tr, th, td { font-size:12px; } */
+table caption { text-indent:-2000px; }
+hr { clear:both; height:1px; border:none; background:#FFF; margin-bottom: 15px; line-height:0; color:#FFF }
+select, input, textarea {font-family: 'Nanum Gothic', sans-serif; }
+form, div, p, fieldset { margin: 0; padding: 0; border:0; }
+input, select, ol, ul, dl, dd { margin:0; padding:0; vertical-align:middle; }
+img, input.type-image { border:0 none; padding:0; margin:0; }
+dl, dt, dd { padding: 0; margin: 0; }
+ul, ol, li { margin:0; padding:0; list-style: none; }
+input.type-radio { width:14px; height:14px; }
+input.no_border { border:0; }
+textarea { border:#ccc solid 1px; padding:2px; margin:0; font-size: 100%; }
+form, div, p, fieldset { margin: 0; padding: 0; border:0; }
+h6 { position: absolute; width: 0px; height: 0px; visibility: hidden; font-size: 0%; overflow: hidden}
+/*링크 테두리 점선 없애기
+a, img, input { selector-dummy:expression(this.hideFocus=true);text-decoration:none;}*/
+/*파이어폭스까지 적용
+a, img, input { outline: none; selector-dummy:expression(this.hideFocus=true);}*/
+img { line-height:0; font-size:0; border:0 }
+caption,legend,
+.accessibility, .hide { position: absolute; width: 0px; height: 0px; visibility: hidden; font-size: 0%; overflow: hidden }
+button, input[type="button"],input[type="submit"],input[type="image"],,input[type="file"]{cursor: pointer;}
+
+em,cite,caption{font-style:normal}
+strong, b{font-weight:700}
+
+/*iphone에서 input */
+input {    -webkit-appearance: none;    -webkit-border-radius:0;     border-radius:0;}
+select {    -webkit-border-radius:0;     border-radius:0;padding:0 ; border:solid 1px #CCC;background:#FFF;}
+input[type="radio"] {position:relative;box-sizing: border-box;   padding:0; vertical-align:middle;-webkit-appearance: radio;}
+input[type="checkbox"]{position:relative; top:0px;   box-sizing: border-box;   padding:0;-webkit-appearance: checkbox;}
+/*iphone end*/
+
+input[type="text"],textarea{font-family:inherit}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(255, 255, 255) !important;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+a, a:link, a:hover, a:active, a:visited {color: inherit;-webkit-transition: color 0.25s ease-out; -moz-transition: color 0.25s ease-out; -o-transition: color 0.25s ease-out;-ms-transition: color 0.25s linear; transition: color 0.25s ease-out; /*outline: none; */text-decoration: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+ a:active, a:focus{ }
+a:hover{color:#f60}
+.ellips{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:block;}
+
+ 
+ /*ready*/ 
+.sorry{background:url(../../common/img/common/sorry.gif) center 30% no-repeat; width:100%; height:500px; text-indent:-9999em; }
+
+
+/*******************
+**나눔고딕일때
+***********************/
+
+/*for admin(관리자이외페이지 콘텐츠폰트크기를위함)*/
+.z_menu h1{font-size:13px; padding:0; margin:0; width:235px; text-align:center; height:65px;line-height:65px}
+.z_mid_bar .z_user { /*background:url(/common/img/m_builder/zenith/z_mid_user.gif) 0 0 no-repeat; height:27px; padding:8px 0 0 30px; color:#FFF; float:left; width:828px; margin:6px 0 0 15px; display:inline */}
+.z_mid_bar .z_user{font-size:13px;color:#FFF ;line-height:normal; display:block;padding-top:5px}
+.z_user em{color:#FF0;}
+#z_sidebar{font-size:13px}
+.adm_bbs *{font-size:13px !important}
+/*.pageContent .bbs{font-size:13px}*/
+.list_top,.mdlPop{font-size:12px !important}
+
+/*******************
+레이어팝업삐질때
+***********************/
+
+.popImgArea{display:block}
+.popImgArea img{border:0 !important;display:block}
+
+
+/*******************
+에디터에 적용글꼴 디폴트로
+***********************/
+
+body .bbs .userContents,
+body .bbs .userContents *{/*font-weight:inherit;font-family:auto;font-size:auto !important;*/ }
+
+body .adm_bbs .bbs .userContents,
+body .adm_bbs .bbs .userContents *{/*font-weight:inherit  !important;font-family:inherit  !important;font-size:inherit !important; */}
+
+
+/* 아산시청 웹접근성 2017.11 */
+
+caption {display:block !important; width:0 !important; height:0 !important; overflow:hidden !important; font-size:0; text-indent:-99999999999px; visibility:visible !important;}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {    transition: background-color 5000s ease-in-out 0s;}
