@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>espoir FAQ</title>
+    <script type="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+    <style>
+        *{margin:0;padding:0;}
+        .nav{margin-bottom:1500px}
+        .dep2{display:none;}
+        .dep1.on .dep2{display:block;}
+        .skipnav a{
+            overflow:hidden;
+            position:absolute;
+            top:0;
+            height:1px;
+            line-height:1;
+        }
+        .skipnav a:focus{
+            display:block;
+            width:100%;
+            height:auto;
+            line-height:1;
+            padding:10px;
+            background:#f5f5f5;
+            font-size:20px;
+            text-align:center;
+            border:1px solid #000;
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="skipnav">
+        <a href="#subNav">메뉴 바로가기</a>
+        <a href="#cTitle">본문 내용바로가기</a>
+    </div>
+    <ul class="nav">
+        <li class="dep1"><a href="#">menu1</a>
+            <div class="dep2">
+                <ul>
+                    <li><a href="#">menu1-1</a></li>
+                    <li><a href="#">menu1-2</a></li>
+                    <li><a href="#">menu1-3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="dep1"><a href="#">menu1</a>
+            <div class="dep2">
+                <ul>
+                    <li><a href="#">menu1-1</a></li>
+                    <li><a href="#">menu1-2</a></li>
+                    <li><a href="#">menu1-3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="dep1"><a href="#">menu1</a>
+            <div class="dep2">
+                <ul>
+                    <li><a href="#">menu1-1</a></li>
+                    <li><a href="#">menu1-2</a></li>
+                    <li><a href="#">menu1-3</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <script>
+        $(document).ready(function(){
+            hnavClick();
+            
+        });
+        function hnavClick() {
+            var tb = $('.dep1');
+            var tbnav = $('.dep1').find('a');
+            tb.each(function(){
+                tb.on("mouseover",function(){
+                    tb.addClass('on');
+                    //$('.on').find('.dep2').attr('tabindex','0').focus();
+                    return false;
+                })
+            });
+        };
+    </script>
+    <div class="csection">
+        <h2 id="cTitle">서브타이틀</h2>
+    </div>
+</body>
+</html>

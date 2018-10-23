@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NMART</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="/js/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/js/jquery/jquery.easing.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(window).on('load',function(){
+				$.ajax({
+					url:'inc/header.html',
+					dataType:"html",
+					success:function(data){
+						$('.header').html(data);
+					},
+					error:function(data){
+						$('.header').text('데이터를 가져오는데 실패하였습니다.');
+					}
+				});
+				
+				$.ajax({
+					url:'inc/footer.html',
+					dataType:"html",
+					success:function(data){
+						$('.footer').html(data);
+					},
+					error:function(data){
+						$('.footer').text('데이터를 가져오는데 실패하였습니다.');
+					}
+				});
+				return false;
+			});
+			//$(window).trigger( "load" );
+		})
+	</script>
+</head>
+<body>
+	<header class="header">
+		
+	</header>
+	<!-- //.header -->
+    <div class="container1">
+        <div class="visual">
+            <div class="left_area">
+                <a class="sub_bn" href="#">
+                    <img src="images/img_container1/sub_bn.jpg" alt="서브배너">
+                </a>
+            </div>
+            <!-- //.left_area -->
+            <div class="main_area">
+                <a class="main_bn" href="#">
+                    <img src="images/img_container1/main_bn.jpg" alt="메인배너">
+                </a>
+            </div>
+            <!-- //.main_area -->
+            <div class="right_area">
+                <div class="right_bn">
+                    <a href="#">
+                        <img src="images/img_container1/sub_bn2.jpg" alt="서브배너2">
+                    </a>
+                </div>
+                <!-- //.right_bn -->
+                <div class="notice">
+                    <h2>공지사항</h2>
+                    <ul>
+                        <li><a href="#">홈페이지를 오픈하였습니다.홈페이지를 오픈하였습니다.</a></li>
+                        <li><a href="#">홈페이지를 오픈하였습니다.홈페이지를 오픈하였습니다.</a></li>
+                        <li><a href="#">홈페이지를 오픈하였습니다.홈페이지를 오픈하였습니다.</a></li>
+                        <li><a href="#">홈페이지를 오픈하였습니다.홈페이지를 오픈하였습니다.</a></li>
+                    </ul>
+                    <a class="more" href="#">+더보기</a>
+                </div>
+                <!-- //.notice -->
+            </div>
+            <!-- //.right_area -->
+        </div>
+        <!-- //.visual -->
+        <div class="recommend_wrap">
+            <div class="rp_text">
+                <h2>추천상품</h2>
+                <p>RECOMMEND PRODUCT</p>
+            </div>
+            <!-- //.rp_text -->
+            <div class="rproduct">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/img_container1/rp_sum1.jpg" alt="추천상품1">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>구이용 안심 600g 2팩</strong>
+                                </dt>
+                                <dd>
+                                    <del>15000</del>
+                                    <p>13000</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/img_container1/rp_sum2.jpg" alt="추천상품2">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>구이용 안심 600g 2팩</strong>
+                                </dt>
+                                <dd>
+                                    <del>15000</del>
+                                    <p>13000</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/img_container1/rp_sum3.jpg" alt="추천상품3">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>구이용 안심 600g 2팩</strong>
+                                </dt>
+                                <dd>
+                                    <del>15000</del>
+                                    <p>13000</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/img_container1/rp_sum4.jpg" alt="추천상품4">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>구이용 안심 600g 2팩</strong>
+                                </dt>
+                                <dd>
+                                    <del>15000</del>
+                                    <p>13000</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/img_container1/rp_sum5.jpg" alt="추천상품5">
+                            </div>
+                            <dl>
+                                <dt>
+                                    <strong>구이용 안심 600g 2팩</strong>
+                                </dt>
+                                <dd>
+                                    <del>15000</del>
+                                    <p>13000</p>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- //.rproduct -->
+            <div class="rp_btn">
+                <a class="left_btn" href="#">
+                    <img src="images/img_container1/rp_left_btn.jpg" alt="추천상품 왼쪽버튼">
+                </a>
+                <a class="right_btn" href="#">
+                    <img src="images/img_container1/rp_right_btn.jpg" alt="추천상품 오른쪽버튼">
+                </a>
+            </div>
+            <!-- //.rp_btn -->
+        </div>
+        <!-- //.recommend_wrap -->
+        <div class="best_wrap">
+            <div class="bp_text">
+                <h2>베스트상품</h2>
+                <p>NMART BEST PRODUCT</p>
+            </div>
+			<div class="bproduct">
+				<div class="bp_section1">
+					<ul>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum1.jpg" alt="베스트상품1">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum2.jpg" alt="베스트상품2">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum3.jpg" alt="베스트상품3">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum4.jpg" alt="베스트상품4">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum5.jpg" alt="베스트상품5">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- //.bp_section1 -->
+				<div class="bp_section2">
+					<ul>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum6.jpg" alt="베스트상품6">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum7.jpg" alt="베스트상품7">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum8.jpg" alt="베스트상품8">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum9.jpg" alt="베스트상품9">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="imgbox">
+									<img src="images/img_container1/best_sum10.png" alt="베스트상품10">
+								</div>
+								<dl>
+									<dt>
+										<strong>구이용 안심 600g 2팩</strong>
+									</dt>
+									<dd>
+										<del>15000</del>
+										<p>13000</p>
+									</dd>
+								</dl>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- //.bp_section2 -->
+			</div>
+			<!-- //.bproduct -->
+        </div>
+        <!-- //.best_wrap -->
+        <div class="quick_bn">
+            <div class="quick_img">
+                <a href="#">
+                    <img src="images/img_container1/quick.jpg" alt="퀵메뉴 이미지">
+                </a>
+            </div>
+            <!-- //.quick_img -->
+            <div class="quick_btn">
+                <a class="lquick_btn" href="#">
+                    <img src="images/img_container1/quick_btn.jpg" alt="퀵메뉴 왼쪽버튼">
+                </a>
+                <a class="rquick_btn" href="#">
+                    <img src="images/img_container1/quick_btn2.jpg" alt="퀵메뉴 오른쪽버튼">
+                </a>
+            </div>
+            <!-- //.quick_btn -->
+        </div>
+    </div>
+    <!-- //.quick_bn -->
+    <div class="section2">
+        <div class="new">
+            <h2>신상품<span>NMART NEW PRODCT</span></h2>
+            <div class="g1">
+                <div class="n1">
+                    <div class="imgbox1"></div>
+                    <div class="icobox1"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+                <div class="n2">
+                    <div class="imgbox2"></div>
+                    <div class="icobox2"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+                <div class="n3">
+                    <div class="imgbox3"></div>
+                    <div class="icobox3"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+                <div class="n4">
+                    <div class="imgbox4"></div>
+                    <div class="icobox4"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+                <div class="n5">
+                    <div class="imgbox5"></div>
+                    <div class="icobox5"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+                <div class="n6">
+                    <div class="imgbox6"></div>
+                    <div class="icobox6"></div>
+                    <strong>구이용 안심 600g 2팩</strong>
+                    <del>139,000원</del>
+                    <ins>139,000원</ins>
+                </div>
+            </div>
+        </div>
+        <!--// 신상품-->
+        <div class="menu1">
+            <div class="smenu1">
+                <h2>쇼핑메뉴 001<span>: Pleasant and happy shopping</span></h2>     
+                <a href="#" class="more">+ 더보기</a>
+                <!--//more-->
+                <div class="g1">
+                    <div class="p1">
+                        <div class="pimgbox1"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p2">
+                        <div class="pimgbox2"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p3">
+                        <div class="pimgbox3"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p4">
+                        <div class="pimgbox4"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p5">
+                        <div class="pimgbox5"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div> 
+                </div>
+                <!--// .shopping menu001-상단메뉴-->
+                <div class="g2">
+                    <div class="p1">
+                        <div class="pimgbox1"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p2">
+                        <div class="pimgbox2"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p3">
+                        <div class="pimgbox3"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p4">
+                        <div class="pimgbox4"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="p5">
+                        <div class="pimgbox5"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div> 
+                </div>
+                <!--// .shopping menu001-하단메뉴-->
+            </div>
+        </div>
+        <!--// .shopping menu1-->
+        <div class="menu2">
+            <div class="smenu2">
+                <h2>쇼핑메뉴 002 <span>: Pleasant and happy shopping</span></h2>
+                <a href="#" class="more">+ 더보기</a>
+                <div class="g3">
+                    <div class="sp1">
+                        <div class="pimgbox1"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <span class="gold">베스트</span>
+                        <span class="red">추천</span>
+                        <span class="orange">신상품</span>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="sp2">
+                        <div class="pimgbox2"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <span class="darkgray">품절임박</span>
+                        <span class="blue">무료배송</span>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="sp3">
+                        <div class="pimgbox3"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <span class="red">추천</span>
+                        <span class="orange">신상품</span>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="sp4">
+                        <div class="pimgbox4"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <span class="gold">베스트</span>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div>
+                    <div class="sp5">
+                        <div class="pimgbox5"></div>
+                        <p>구이용 안심 600g 2팩</p>
+                        <span class="red">추천</span>
+                        <span class="brown">세일 </span>
+                        <del>13,000원</del>
+                        <ins>13,000원</ins>
+                    </div> 
+                </div>
+            </div>
+                <!--// .shopping menu002-하단메뉴-->
+            <div class="g4">
+                <div class="sp1">
+                    <div class="pimgbox1"></div>
+                    <p>구이용 안심 600g 2팩</p>
+                    <span class="orange">신상품</span>
+                    <span class="brown">세일</span>
+                    <del>13,000원</del>
+                    <ins>13,000원</ins>
+                </div>
+                <div class="sp2">
+                    <div class="pimgbox2"></div>
+                    <p>구이용 안심 600g 2팩</p>
+                    <span class="gray">품절</span>
+                    <del>13,000원</del>
+                    <ins>13,000원</ins>
+                </div>
+                <div class="sp3">
+                    <div class="pimgbox3"></div>
+                    <p>구이용 안심 600g 2팩</p>
+                    <span class="gray">품절</span>
+                    <del>13,000원</del>
+                    <ins>13,000원</ins>
+                </div>
+                <div class="sp4">
+                    <div class="pimgbox4"></div>
+                    <p>구이용 안심 600g 2팩</p>
+                    <span class="blue">무료배송</span> 
+                    <del>13,000원</del>
+                    <ins>13,000원</ins>
+                </div>
+                <div class="sp5">
+                    <div class="pimgbox5"></div>
+                    <p>구이용 안심 600g 2팩</p>
+                    <span class="gold">베스트</span>
+                    <span class="red">추천</span>
+                    <span class="brown">세일</span>
+                    <del>13,000원</del>
+                    <ins>13,000원</ins>
+                </div> 
+            </div>
+            <!--// .shopping menu002-하단메뉴-->
+        </div>
+        <!--// .shopping menu2-->
+    </div>
+    <!--// .section2-->
+    
+    <div class="footer">
+       
+    </div>
+    <!-- //.footer -->
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NMART</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="/js/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/js/jquery/jquery.easing.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(window).on('load',function(){
+				$.ajax({
+					url:'inc/header.html',
+					dataType:"html",
+					success:function(data){
+						$('.header').html(data);
+					},
+					error:function(data){
+						$('.header').text('데이터를 가져오는데 실패하였습니다.');
+					}
+				});
+				
+				$.ajax({
+					url:'inc/footer.html',
+					dataType:"html",
+					success:function(data){
+						$('.footer').html(data);
+					},
+					error:function(data){
+						$('.footer').text('데이터를 가져오는데 실패하였습니다.');
+					}
+				});
+				return false;
+			});
+			//$(window).trigger( "load" );
+		})
+	</script>
+</head>
+<body>
+	<header class="header">
+		
+	</header>
+	<!-- //.header -->
+    
+    <main>
+    	콘텐츠 영역
+    </main>
+    
+    <div class="footer">
+       
+    </div>
+    <!-- //.footer -->
+</body>
+</html>
