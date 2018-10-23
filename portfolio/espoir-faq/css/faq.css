@@ -29,9 +29,6 @@ main{
 	font-size: 16px;
 	color: #888;
 }
-.topnav ul li a:focus{
-	outline: 1px dotted #67e8ff;
-}
 /* container */
 .faq_container{
 	position: relative;
@@ -68,9 +65,6 @@ main{
 .sidenav ul li.on a{
 	color: #000;
 	transition: all 1s;
-}
-.sidenav ul li a:focus{
-	outline: 1px dotted #67e8ff;
 }
 /* right side */
 .rs_wrap{
@@ -146,9 +140,6 @@ main{
 	display: block;
 	padding: 40px 0 40px 60px;
 }
-.qlist .qsection:focus{
-	outline: 1px dotted #67e8ff;
-}
 .qlist .qsection::after{
 	content: "Q";
 	position: absolute;
@@ -212,7 +203,7 @@ main{
     text-indent: -99999px;
 }
 .pagingnum .prev:focus{
-	outline: 1px dotted #67e8ff;
+	outline: 1px dotted #18f89b;
 }
 .pagingnum .w_paging{
 	display: inline;
@@ -239,9 +230,6 @@ main{
     color: #666;
     border: 1px solid #dfdfdf;
 }
-.pagingnum .w_paging a:focus{
-	outline: 1px dotted #67e8ff;
-}
 .pagingnum .next{
 	width: 37px;
 	height: 37px;
@@ -251,7 +239,7 @@ main{
     text-indent: -99999px;
 }
 .pagingnum .next:focus{
-	outline: 1px dotted #67e8ff;
+	outline: 1px dotted #18f89b;
 }
 
 /* media */

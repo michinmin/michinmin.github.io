@@ -1,5 +1,5 @@
 a:focus{
-	outline: 1px dotted #67e8ff;
+	outline: 1px dotted #18f89b;
 }
 .headerwrap{
 	width: 100%;
@@ -72,16 +72,19 @@ a:focus{
     letter-spacing: 0.06em;
 }
 .menu .dep1.on .dep2{
-	/* display: block; */
+	position: absolute;
+	top: 80px;
+	height: auto;
 }
 /* dep2 */
 .header_bottom .dep2{
 	position: absolute;
-	display: none;
-	top: 80px;
+	overflow: hidden;
+	top: -10px;
 	left: 0;
 	width: 1240px;
-	height: auto;
+	height: 0;
+	padding: 2px 1px;
 }
 .header_bottom .dep2 li{
 	float: left;

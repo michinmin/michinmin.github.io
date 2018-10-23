@@ -80,17 +80,18 @@ function hnavclick() {
 	var tb = $('.dep1');
 	var tbnav = $('.dep1').find('a');
 	tb.each(function(){
-		tbnav.on("mouseenter focusin",function(){
-			// $(this).addClass("on");
-			$(this).find('>div').show();
+		tb.on("mouseenter focusin",function(){
+			tb.removeClass('on');
+			$(this).addClass('on');
+			// $(this).next('div').show();
 			//$(this).find('>div').hasClass("dep2");
 			// if(dep2nav){
 			// 	$('.dep2').show();
 			// }
 			return false;
 		}).on("mouseleave focusout",function(){
-			// tb.removeClass("on");
-			$(this).find('>div').hide();
+			tb.removeClass('on');
+			// $(this).next('div').hide();
 			return false;
 		});
 
@@ -98,6 +99,17 @@ function hnavclick() {
 		// 	tb.removeClass("on");
 		// });
 	});
+	/*tbnav.on('click mouseenter focusin', function(){
+		var nclick = $(this).parents('.dep1').hasClass('on');
+		if(!nclick){
+			tb.removeClass('on');
+			$(this).parent('.dep1').addClass('on');
+		}
+		return false;
+	});
+	tbnav.on('click mouseleave focusout', function(){
+		tb.removeClass('on')
+	});*/
 };
 
 function hnhoverColor(){
