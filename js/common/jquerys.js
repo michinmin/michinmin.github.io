@@ -105,12 +105,24 @@ $(function(){
 			}
 		]
 	});
-	
-	
+	list_addclass();
+	skillHover();
 });
 
-
- 
-/* 
- Setup and Paint your lazyline! 
- */ 
+function list_addclass(){
+	$('.skill_list li').each(function(i, e){
+		var i = ++i;
+		console.log(i);
+		$(e).addClass('skill_item' + i);
+	});
+};
+function skillHover(){
+	var skillbtn = $('.skillbox').find('>div.item');
+	var skillList = $('.skill_list').find('>li');
+	skillbtn.hover(function(e){
+		e.preventDefault();
+		var idx = $(this).index() - 1;
+		$(this).addClass('act').siblings().removeClass('act');
+		$('.skill_list li').eq(idx).addClass('act').siblings().removeClass('act');
+	});
+};
