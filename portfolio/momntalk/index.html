@@ -12,7 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">
 	<script type="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/common/jqdemo.js"></script>
+    <script type="text/javascript" src="js/common/uxDetect.min.js"></script>
+    <script type="text/javascript" src="js/common/jqdemo.js"></script>
 </head>
 <body>
     <div class="headerwrap">
@@ -571,5 +572,8 @@
         </div>        
     </div>
     <!-- //.footer -->
+    <script>
+		$( "body" ).append( "<div class='message'><div>현재 보고계신 페이지는 크롬에 최적화 되어있습니다.</div></div>" );
+	</script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+.subpwrap{
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
 .grab{
     margin: 0 auto;
     width: 970px;
