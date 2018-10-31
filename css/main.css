@@ -545,6 +545,12 @@ main{
 	font-family: 'Caviar Dreams';
 }
 /* portfolio - rolling */
+.portfolio .slick-list{
+	height: 100%;
+}
+.portfolio .slick-track{
+	height: 100%;
+}
 .slickslide{
 	width: 75%;
 	height: 350px;
@@ -554,6 +560,7 @@ main{
 	text-align: center;
 }
 .slickslide .sitem{
+	position:relative;
 	display: table!important;
 	float: left;
 	width: 20%;
@@ -591,6 +598,67 @@ main{
 .slickslide .slick-prev:before, 
 .slickslide .slick-next:before{
 	color: #535353;
+}
+
+/* hover9 */
+.hover9:before, .hover9:after, .hover9_label:before, .hover9_label:after{
+	content: "";
+	position: absolute;
+	/* transition: all .2s ease-out; */
+}
+.hover9:before{
+	transition: all .2s ease-out;
+}
+.hover9_label:after{
+	transition: all .3s ease-out;
+}
+.hover9:after{
+	transition: all .4s ease-out;
+}
+.hover9_label:before{
+	transition: all .5s ease-out;
+}
+
+.hover9:before, .hover9:after{
+	width: 0;
+	height: 2px;
+	background-color: #ff96b9;
+}
+.hover9:hover:before, .hover9:hover:after{
+	width:100%;
+}
+.hover9:before{
+	top: 0;
+	left:0;
+	/* transform: translate3d(-100%, 0, 0); */
+}
+
+.hover9:after{
+	bottom: 0;
+	right:0;
+	/* transform: translate3d(100%, 0, 0); */
+}
+
+.hover9_label:before, .hover9_label:after{
+	width: 2px;
+	height: 0%;
+	background-color: #ff96b9;
+}
+.hover9_label:hover:before, .hover9_label:hover:after{
+	height: 100%;
+}
+
+.hover9_label:before{
+	bottom:0;
+	left: 0;
+	/* transform: translate3d(0, 100%, 0); */
+}
+
+.hover9_label:after{
+	top:0;
+	right: 0;
+	/* transform: translate3d(0, -100%, 0); */
+	/* border: 1px solid #ff96b9; */
 }
 /* footer */
 footer{
@@ -864,62 +932,7 @@ footer .icons .tel{
 		margin-left: 8%;
 	}
 }
-/* hover9 */
-.hover9{
-	position: relative;
-	overflow: hidden;
-	display: inline-block;
-}
 
-.hover9:before, .hover9:after, .hover9_label:before, .hover9_label:after{
-	content: "";
-	position: absolute;
-	transition: transform .2s ease-out;
-}
-
-.hover9:before, .hover9:after{
-	width: 100%;
-	height: 2px;
-	left: 0;
-}
-
-.hover9:before{
-	top: 0;
-	transform: translate3d(-100%, 0, 0);
-}
-
-.hover9:after{
-	bottom: 0;
-	transform: translate3d(100%, 0, 0);
-}
-
-.hover9_label:before, .hover9_label:after{
-	width: 2px;
-	height: 100%;
-	top: 0;
-}
-
-.hover9_label:before{
-	left: 0;
-	transform: translate3d(0, 100%, 0);
-}
-
-.hover9_label:after{
-	right: 0;
-	transform: translate3d(0, -100%, 0);
-	border: 1px solid #ff96b9;
-}
-
-.hover9:hover:before, .hover9:hover:after,
-.hover9:hover .hover9_label:before, .hover9:hover .hover9_label:after,
-.hover9:focus:before, .hover9:focus:after,
-.hover9:focus .hover9_label:before, .hover9:focus .hover9_label:after{
-	transform: translate3d(0, 0, 0);
-}
-.hover9:after, .hover9:before,
-.hover9__label:after, .hover9_label:before{
-	background-color: #ff96b9;
-}
 /* skill_list hover */
 .skillbox div.item{
 	cursor: pointer;
@@ -941,4 +954,30 @@ footer .icons .tel{
 	transition:0.5s all ease;
 	-webkit-backface-visibility:hidden;
 			backface-visibility:hidden;
+}
+
+.message{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+}
+.lt-ie9 .message,.ie9 .message{
+	display: block;
+}
+.message div{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 50px;
+	background: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+	transform: translate(-50%,-50%);
 }
