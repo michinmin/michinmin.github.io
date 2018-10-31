@@ -113,7 +113,7 @@ function list_addclass(){
 	$('.skill_list li').each(function(i, e){
 		var i = ++i;
 		console.log(i);
-		$(e).addClass('skill_item' + i);
+		$(e).addClass('skill_item');
 	});
 };
 function skillHover(){
