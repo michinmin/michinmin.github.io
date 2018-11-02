@@ -1,0 +1,130 @@
+/* Swiper 4.3.5 Style */
+.swiper-demo{
+	width:100%;
+	height:500px;
+}
+.swiper-demo .swiper-container {
+	width: 100%;
+	height: 500px;
+}
+.swiper-demo .swiper-slide{
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 flex가 지원되지 않는 IE브라우저는 사용불가 */
+	align-items:center; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	background-size:cover;
+	text-align:center;
+}
+.swiper-demo .swiper-slide img{
+	height:100%;
+}
+.swiper-demo .swiper-container-horizontal>.swiper-pagination-bullets, 
+.swiper-demo .swiper-pagination-custom, .swiper-pagination-fraction{
+	color:#fff;
+	font-size:20px;
+	font-weight:600;
+}
+.swiper-demo .swiper-container-horizontal>.swiper-pagination-bullets span, 
+.swiper-demo .swiper-pagination-custom, .swiper-pagination-fraction span{
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+.swiper-demo .swiper-pagination-bullet {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: #000;
+	opacity: .5;
+}
+.swiper-demo .swiper-pagination-bullet-active {
+	width:80px;
+	border-radius:10px;
+	background: #007aff;
+	opacity: 1;
+}
+.swiper-demo .swiper-button-next, 
+.swiper-demo .swiper-container-rtl .swiper-button-prev{
+	
+}
+
+
+/* BX-Slider Style */
+.bxslider-demo{
+	width:100%;
+	height:500px;
+	margin-bottom:100px;
+}
+.bxslider-demo .bx-wrapper{
+	height:100%;
+	margin-bottom:0;
+	box-shadow:none;
+	border:0;
+}
+.bxslider-demo .bx-viewport{
+	height:100%!important;
+}
+.bxslider-demo .bxslider{
+	height:100%;
+}
+.bxslider-demo .bxslider .bxitem{
+	height:100%;
+}
+.bxslider-demo .bx-wrapper img{
+	width:100%;
+	height:100%;
+}
+.bxslider-demo .bx-wrapper .bx-caption{
+
+}
+.bxslider-demo .bx-wrapper .bx-caption span{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls-auto, 
+.bxslider-demo .bx-wrapper .bx-pager{
+
+}
+.bxslider-demo .bx-wrapper .bx-pager{
+
+}
+.bxslider-demo .bx-wrapper .bx-pager-item{
+
+}
+.bxslider-demo .bx-wrapper .bx-pager.bx-default-pager a{
+
+}
+.bxslider-demo .bx-wrapper .bx-pager.bx-default-pager a.active, 
+.bxslider-demo .bx-wrapper .bx-pager.bx-default-pager a:focus, 
+.bxslider-demo .bx-wrapper .bx-pager.bx-default-pager a:hover{
+	width:100px;
+}
+.bxslider-demo .bx-controls-direction{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls-direction a{
+
+}
+.bxslider-demo .bx-wrapper .bx-prev{
+
+}
+.bxslider-demo .bx-wrapper .bx-next{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls-auto, 
+.bxslider-demo .bx-wrapper .bx-pager{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls-auto .bx-start{
+
+}
+.bxslider-demo .bx-wrapper .bx-controls-auto .bx-stop{
+
+}

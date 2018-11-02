@@ -1,0 +1,37 @@
+.yss{padding-bottom: 30px;width: 858px;margin: 20px auto;}
+.yss img{font-size: 0;line-height: 0;vertical-align: top}
+
+.yss .imgX img{width: 100%; display: block;}
+
+.yss .btnWrap{overflow: hidden;padding: 20px 39px;}
+.yss .btnWrap h3{float: left;width: auto;padding-top: 0;margin: 0;}
+.yss .btnWrap .btns{float: right;width: auto;overflow: hidden;}
+.yss .btnWrap .btns a{display:block;float: left;padding-left: 10px;}
+
+.yss .btnWrap.dotum{padding: 15px 39px 20px; }
+.yss .btnWrap.dotum .btns{padding-top: 20px;}
+
+.yss .btnWrap.all{padding: 0px 39px 5px 39px; }
+.yss .btnWrap.all .btns a{padding-left: 0;}
+
+@media only screen and (max-width: 900px) {
+
+.yss{padding-bottom: 20px;width: auto;margin: 10px auto;}
+.yss .imgX{margin: 0 -16px;}
+.yss .imgX.first{margin: 0;}
+.yss .btnWrap,
+.yss .btnWrap.dotum,
+.yss .btnWrap.all{overflow: hidden;padding: 15px 0px;}
+.yss .btnWrap img{width: 100%;}
+.yss .btnWrap h3{float: none;padding-bottom: 20px;}
+.yss .btnWrap h3 img{width: auto;max-width: 300px;}
+.yss .btnWrap .btns{float:none;width: 100%;}
+.yss .btnWrap .btns a{padding-left: 0px;width: 50%;}
+
+.yss .btnWrap.dotum .btns{padding-top: 0px;}
+
+.yss .btnWrap.all h3{padding-bottom: 0px;}
+.yss .btnWrap.all h3 img{width: 100%;max-width: 100%;}
+
+
+}

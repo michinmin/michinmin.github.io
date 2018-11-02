@@ -1,0 +1,161 @@
+/*
+Writer : Stackr lnc.
+Description : style sheet for asan drupal system
+*/
+.node-type-list dt{margin-bottom:15px}
+.node-type-list dt a{display:block;padding:5px 10px;border:1px solid #5990C3;color:#fff;background:#4D7DA7;float:right;}
+.node-type-list dt a:hover{background:#5990C3}
+.node-type-list dd{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #ccc;line-height:30px;height:30px;color:#555;letter-spacing:-1px}
+
+.field-name-field-cc .field-label{display:none;}
+
+#block-menu-block-1 h2{font-size:21px;font-weight:normal;line-height:24px;margin-bottom:23px;}
+#block-menu-block-1 h2 a{color:#000;}
+#block-menu-block-1 .menu li{list-style-type:none;list-style-image:none;border-bottom:1px solid #ababab;padding:10px 0px;margin:0;}
+#block-menu-block-1 .menu li a{font-size:14px;font-weight:bold;display:block;}
+#block-menu-block-1 .menu li.active{border-top:2px solid #0061b1;border-bottom:1px solid #ababab;padding-bottom:0;}
+#block-menu-block-1 .menu li.active a{margin-bottom:10px;color:#005ead;}
+
+.region-highlited .contextual-links{position:inherit;}
+
+#search-block-form{position:absolute;right:21px;bottom:15px;}
+#search-block-form .container-inline{border:1px solid #456A8E;height:24px;width:211px;background:#fff;position:relative;}
+#search-block-form .container-inline .form-actions{position:absolute;top:0;right:0;}
+#search-block-form .form-item-search-block-form input{border:none;padding:3px 5px 2px;width:160px;color:#666}
+#search-block-form #edit-submit, #search-block-form #edit-submit--2, #search-block-form #edit-submit--3{border:none;border-top:1px solid #5990c3;background:#4d7da7;color:#fff;padding:0px 8px;height:24px;line-height:20px;cursor:pointer;}
+
+#block-search-form{position:absolute;right:0px;bottom:2px;}
+#block-search-form #search-block-form{position:relative;}
+
+.lc04 .pager{border-top:1px solid #b5c8dd;padding-top:24px;}
+.lc04 .pager li{margin:0 4px;font-weight:bold;font-size:12px;color:#555;border:1px solid #dce4ed;width:22px;height:22px;line-height:22px;background:#f1f4f8;}
+.lc04 .pager li a{font-weight:bold;font-size:10px;color:#555;text-decoration:none;}
+.lc04 .pager li.pager-current{background:#819ab7;color:#fff;border-color:#5a7694;}
+
+
+.fc04 .item-list{display:inline-block;}
+.item-list .pager{border:0px solid #0061B1;display:inline-block;}
+.item-list .pager li{border-radius: 7px;display:inline-block;padding:0;margin:0;border:1px solid #aaa;width:30px;height:27px;line-height:27px;text-align:center;color:#fff;background:#ffffff;margin-left:2px;font-size:13px;}
+.item-list .pager a{color:#aaa;}
+.item-list .pager li:hover  {background:#00a7ea;color:white;border:1px solid #ffffff}
+.item-list .pager li:hover a {background:#00a7ea;color:white;}
+.item-list .pager li:first-child{border:none;margin-left:0;border:1px solid #aaa;} 
+.item-list .pager li.pager-current{background:#00a7ea;padding:0 5px;border:1px solid #00a7ea;}
+.item-list .pager li.pager-item a{padding:0 5px;}
+.item-list .pager li.pager-ellipsis {display:none;} 
+
+ #s_str {  border:1px solid #ddd;height:23px;line-height:23px;padding:0 5px;width:120px}
+ #s_field  {  border:1px solid #ddd;height:23px;line-height:23px;padding:0 0px;width:60px}
+ label {font-size:12pt;color:#aaa;padding:0 0 0 5px;font-weight:normal;}
+
+#edit-field-receive-letter > div > label{width:100px}
+/* poll */
+.field-name-body .field-item, .ct_tc14 .field-name-field-business-name, .ct_tc14 .field-name-field-location, .ct_tc14 .field-name-field-reason
+.ct_tc14 .field-name-field-reg-no, .ct_tc14 .field-name-field-reg-no, .ct_tc14 .field-name-field-damdang-depart, .ct_tc14 .field-name-field-damdang-person, .ct_tc14 .field-name-field-opinion, .ct_tc14 .field-name-field-sort, .ct_tc14 .field-name-field-replqy {border:1px solid #efefef;background:#f9f9f9;padding:20px;color:#000;margin-bottom:25px}
+.ct_tc14 .field-name-field-damdang-depart{display: none}
+.ct_tc14 fieldset#node_pes_full_group_pes {border: 1px solid #efefef;background: #f9f9f9;padding: 20px;color: #000;margin-bottom: 25px;}
+.ct_tc14 fieldset#node_pes_full_group_pes .field-name-field-subject-no, .ct_tc14 fieldset#node_pes_full_group_pes .field-name-field-subject{float:left; margin:0 10px 10px 0}
+.webform-client-form .webform-component{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #efefef}
+.webform-client-form .form-item label{color:#00a7ea;font-weight:bold;margin-right:10px;margin-bottom:10px}
+.webform-client-form .form-item .form-text{border:1px solid #a9a9a9;height:13px;padding:3px 5px}
+.webform-client-form .form-radios .form-item{margin-bottom:10px}
+.webform-client-form .form-radios label{font-weight:normal;color:#000;margin-bottom:0}
+.webform-client-form .form-actions{text-align:center}
+.webform-client-form .form-actions input{border:1px solid #cecece;color:#000;padding:5px 20px;cursor:pointer}
+
+/* search */
+.search-results{padding:0 0 0 0px;margin-bottom:20px;}
+.search-results li{margin-bottom:10px;background:#fcfcfc;padding:5px;border:1px solid #eee;}
+.search-results li h3.title{margin-bottom:3px;padding:5px;} 
+.search-results li h3.title a{font-size:15px;color:#0099cc;} 
+.search-results li h3.title a:hover{font-size:15px;color:#cc0000;}
+.search-results li h3.title a:visited{font-size:15px;color:#99209b}
+.search-results li .search-snippet{margin-bottom:5px;margin-top:5px;color:#666;line-height: 145%;font-size: 14px;}
+.search-results li .search-info{font-size:11px;color:#999;margin-top:10px;}
+
+/* 2018-04-02 */
+.detailView.search-results li{line-height: 145%;font-size: 14px;margin-bottom:10px;background:#fcfcfc;padding:10px;border:1px solid #eee;}
+
+.detailView.search-results li  a{font-size:15px;color:#0099cc;margin-bottom:3px;padding:5px;font-weight: bold;} 
+.detailView.search-results li span.bul{width: 3px;height: 3px;background-color: #AAA;border-radius:50% ;line-height: 100%;vertical-align: middle;margin-bottom: 3px;}
+.detailView.search-results li span.bul:first-child{background-color: #09c;width: 7px;height: 7px;}
+
+/* 2018-04-02 */
+.search-result-title{overflow: hidden;}
+.search-result-title .ct_th02{float: left;width: 70%;}
+.search-result-title a{float: right;display: block;padding:  0;width: 62px;line-height: 20px;text-align: center;font-size: 13px;letter-spacing: -1px;border: 0px solid #ddd;background-color: #0099C5;color: #FFF;border-radius:2.5em;margin-bottom: 10px;}
+
+.totalSearchTimer{font-size: 13px;padding: 0 2% 4px 0;text-align: right;}
+.searchTimer{font-size: 11px;padding: 3px 5px 4px 0;text-align: right;color: #666;}
+.searchNothing{background-color: #f4f5f4;padding: 45px 0;text-align: center;font-size: 14px;color: #666;margin: 5px;border-radius:10px;}
+
+.contents .search-form{border:1px solid #f0f0f0;background:#f9f9f9;padding:20px 40px;margin-bottom:30px}
+.contents .search-form .form-item.form-type-textfield{display:inline}
+.contents .search-form .form-item.form-type-textfield label{color:#666;font-weight:bold;margin-right:10px;font-size:15px}
+.contents .search-form input.form-text{width:200px;padding:6px 6px;height:15px;background:#fff;border:1px solid #d0e3ed;font-weight:bold}
+.contents .search-form .form-submit{background:#36ad4a;color:#fff;border:1px solid #d0e3ed;margin-left:-5px;height:30px;padding:0 10px}
+.contents .search-form .search-advanced .form-item.form-type-textfield{display:block}
+.contents .search-form .search-advanced .form-item.form-type-textfield label{font-size:12px}
+.contents .search-form .search-advanced  input.form-text{width:150px}
+body > section.mBody.sub > div > div > div.tc04.searchResult.tc04_01 > h2:nth-child(2){padding-left:25px;padding-top: 13px;background:url(../images/bl_ar08.jpg) 7px 14px no-repeat;margin-bottom:25px;font-size:15px;color:#333}
+body > section.mBody.sub > div > div > div.tc04.searchResult.tc04_01 > div{text-align:center}
+/* form */
+
+.searchResult { padding-left:20px;width:97%; }
+.tc04.searchResult{width: auto !important;padding-right: 20px;}
+
+.node-form.node-publicinfo-form .form-item.form-type-textfield{border-bottom:1px solid #ddd;padding-bottom:20px;margin-bottom:0}
+.node-form.node-publicinfo-form .form-item label{color:#00a7ea}
+.node-form.node-publicinfo-form .form-item label .field-edit-link{color:#333}
+.node-form.node-publicinfo-form .form-text{border:1px solid #a9a9a9;padding:3px}
+.node-form.node-publicinfo-form.form-item .description{color:#00a7ea}
+
+.node-form.node-form .form-item.form-type-textfield, .node-form.node-form .form-item.form-type-radios{border-bottom:1px solid #ddd;padding-bottom:20px;margin-bottom:0}
+.node-form.node-form .form-item label{color:#00a7ea; margin-right:20px; width:100%}
+.node-form.node-form .form-type-managed-file label{width:110px}
+.node-form.node-form .form-item-field-report-part-und label,.node-form.node-form .form-item-field-secret-node-und label{width:100px}
+.node-form.node-form .form-item label .field-edit-link{color:#333}
+.node-form.node-form .form-text{border:1px solid #a9a9a9;padding:3px;}
+.node-form.node-form.form-item .description{color:#00a7ea}
+.node-form.node-budgetcompilation-form .form-item.form-type-radio.form-item-field-form-type-und, .node-form.node-budgetcompilation-form #edit-field-form-type-und{display: inline-block}
+
+/* 예산편성에 바란다 */
+.page-node-add .node-form.node-budgetcompilation-form .field-type-text.field-name-field-person-name.field-widget-text-textfield.form-wrapper, .page-node-add .node-form.node-budgetcompilation-form .field-type-text.field-name-field-business-name.field-widget-text-textfield.form-wrapper, .page-node-add .node-form.node-budgetcompilation-form .field-type-text.field-name-field-location.field-widget-text-textfield.form-wrapper, .page-node-add .node-form.node-budgetcompilation-form .field-type-text-long.field-name-field-reason.field-widget-text-textarea.form-wrapper, .node-form.node-budgetcompilation-form .field-type-datetime.field-name-field-write-date.field-widget-date-select.form-wrapper{display: none;}
+.field.field-name-field-reason.field-type-text-long.field-label-inline.clearfix{float:none}
+form.budgetcompilation.search select.search{border: none;padding: 5px 5px;width: 147px;color: #666;font-size: 13px;font-weight: bold;height: 26px;line-height: 15px;-webkit-appearance: none;}
+form.budgetcompilation.search input.button02{border: none;border-left: 1px solid #d0e3ed;background: #36ad4a;color: #fff;padding: 0px 7px;height: 26px;line-height: 26px;font-size: 13px;cursor: pointer;}
+.tc06.budgetcompilation{position: relative}
+.tc06.budgetcompilation dt{position: absolute; top:24px}
+
+/* 관리자 탭 메뉴 */
+ul.tabs.primary{padding:10px;overflow: hidden;text-align: right;margin: 0;height: 20px;border-bottom:1px solid #c5dcea}
+ul.tabs.primary li a, form#user-login input#edit-submit{background: #c5dcea;color: #0068b1;padding: 5px 15px;margin: 0 0 0 0;border: 0;cursor:pointer;}
+
+/* 설문조사 메뉴 */
+form.node-webform-form div.field-name-field-asan-menu div.form-type-checkbox{display: none}
+form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-357,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-371,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-407,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-409,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-29,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-403,form.node-webform-form div.field-name-field-asan-menu div.form-item-field-asan-menu-und-373{display: block}
+
+/* 글쓰기 첨부파일 */
+div#edit-field-attachment.field-type-file.field-name-field-attachment.field-widget-file-generic.form-wrapper{border:1px solid #ddd}
+
+/* 로그인 */
+form#user-login{margin:20px 0 20px 40px}
+form#user-login .form-item label{width:100px}
+form#user-login .description{/*size:1em*/}
+
+/* 컨텐츠 담당 */
+div.term-listing-heading .content .field-items{border:1px solid #ccc;padding:5px;margin-bottom: 10px;text-align:right;font-size:10pt;font-family:'Nanum Gothic';color:#444;background:#fafafa}
+
+
+/* 아산시청 웹접근성 2017.11 */
+
+/* 명도대비 */
+ .item-list .pager li.pager-current {background-color:#009DD2;}
+.item-list .pager li:hover, .item-list .pager li:hover a {background-color:#009DD2;}
+label {color:#676767;}
+form.budgetcompilation.search input.button02 {background-color:#34A647;}
+
+
+/* 조작가능 */
+.item-list .pager li {overflow:hidden;}
+.item-list .pager a {color:#676767; display: block; width: 29px; height: 25px; line-height: 25px; text-align: center; padding: 0 !important; margin: 0 !important;}

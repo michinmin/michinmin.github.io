@@ -1,0 +1,11 @@
+var espoir_comm_txt = {};
+
+espoir_comm_txt.btn_wish_go = "찜한상품 이동";
+espoir_comm_txt.btn_wish_go_cancel = "계속 쇼핑하기";
+
+espoir_comm_txt.error_choice_option = "상품의 옵션을 선택해주세요.";
+
+espoir_comm_txt.purchage_not_login = "로그인 후 구매하시면<br/>쿠폰과 포인트로<br/>알뜰한 쇼핑 가능하세요!";
+espoir_comm_txt.purchage_not_login_ok_str = "로그인 구매";
+espoir_comm_txt.purchage_not_login_cancel_str = "비로그인 구매";
+

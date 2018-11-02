@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no, date=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>아산시청 메인 홈페이지</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">
+	<script type="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/common/jqdemo.js"></script>
+    <script type="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
+</head>
+<body>
+    <div class="header_wrap">
+        <div class="header_bd">
+            <div class="header_top">
+                <div class="call_center">
+                    <a href="#">
+                        <span class="asancall">아산시콜센터</span>
+                        <span class="blue">1577</span>
+                        <span class="green">-6611</span>
+                    </a>
+                </div>
+                <!-- //.call_center -->
+                <div class="header_tab">
+                    <ul>
+                        <li>
+                            <a href="#">문화관광</a>
+                        </li>
+                        <li>
+                            <a href="#">통합예약</a>
+                        </li>
+                        <li>
+                            <a href="#">아산소식</a>
+                        </li>
+                        <li>
+                            <a href="#">일자리</a>
+                        </li>
+                        <li>
+                            <a href="#">맛나드리</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //.header_tab -->
+                <div class="utilmenu">
+                    <ul class="util">
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                        <li>
+                            <a href="#">언어 선택 ▼</a>
+                        </li>
+                    </ul>
+                    <ul class="zoom">
+                        <li>
+                            <a class="minus" href="#">
+                                <img src="images/btn_minus.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="plus" href="#">
+                                <img src="images/btn_plus.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //.utilmenu -->
+        </div>
+        <!-- //.header_top -->
+        <div class="header_center">
+            <h1>
+                <a href="#">
+                    <img src="images/logo.png" alt="아산시">
+                </a>
+            </h1>
+            <div class="search">
+                <input class="sch_text" type="text" placeholder="검색어를 입력하세요.">
+                <input class="sch_btn" type="submit">
+            </div>
+            <div class="hc_rightbn">
+                <a href="#">
+                    <img src="images/bzb7pley.jpg" alt="아산시 감사위원회">
+                </a>
+                <a href="#">
+                    <span>
+                        <img src="images/9lsdhens.jpg" alt="태극기">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!-- //.header_center -->
+        <div class="gnb_bg">
+            <div class="gnb_wrap">
+                <div class="menu_btn">
+                    <a href="#"></a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">아산소개</a>
+                        </li>
+                        <li>
+                            <a href="#">정보공개</a>
+                        </li>
+                        <li>
+                            <a href="#">민원</a>
+                        </li>
+                        <li>
+                            <a href="#">시정</a>
+                        </li>
+                        <li>
+                            <a href="#">분야별정보</a>
+                        </li>
+                        <li>
+                            <a href="#">시민참여</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gnb_news">
+                    <span>현재 미세먼지/초미세먼지 농도</span>
+                    <a class="up" href="#"></a>
+                    <a class="down" href="#"></a>
+                </div>
+            </div>
+        <!-- //.gnb_wrap -->
+        </div>
+        <!-- //.gnb_bg -->
+    </div>
+    <!-- //.header_wrap -->
+    <div class="popup_bg">
+        <div class="popzonewrap">
+            <div class="p_weather">
+                <dl class="line">
+                    <dt>구름많음 0m/s</dt>
+                    <dd class="number">26<span>℃</span></dd>
+                </dl>
+                <dl class="dust">
+                    <dt>초미세먼지 농도</dt>
+                    <dd class="wbtn1">보통(16)</dd>
+                </dl>
+                <dl class="dust">
+                    <dt>미세먼지 농도</dt>
+                    <dd class="wbtn2">좋음(28)</dd>
+                </dl>
+            </div>
+            <!-- //.p_weather -->
+            <div class="popzone_left">
+                <div class="vslider">
+                    <div><img src="images/popup_main1.jpg" alt=""></div>
+                    <div><img src="images/popup_main2.jpg" alt=""></div>
+                    <div><img src="images/popup_main3.jpg" alt=""></div>
+                    <div><img src="images/popup_main4.jpg" alt=""></div>
+                    <div><img src="images/popup_main5.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="popzone_right">
+                <div class="pslider">
+                    <div><img src="images/popup_right1.jpg" alt=""></div>
+                    <div><img src="images/popup_right2.jpg" alt=""></div>
+                    <div><img src="images/popup_right3.jpg" alt=""></div>
+                    <div><img src="images/popup_right4.jpg" alt=""></div>
+                    <div><img src="images/popup_right5.jpg" alt=""></div>
+                    <div><img src="images/popup_right6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- //.popzonewrap -->
+    </div>
+    <div class="container">
+        <div class="container_bg">
+            <div class="csection_top">
+                <div class="cst_t">
+                    <div class="cst_left">
+                        <ul>
+                            <li class="trip">
+                                <a href="#">추천여행</a>
+                            </li>
+                            <li class="tour">
+                                <a href="#">시티투어</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //.cst_left -->
+                    <div class="civil">
+                        <h2 class="civil_title">
+                            <a href="#">
+                                <strong>시민의 소리</strong>
+                            </a>
+                            <p>시민을 위한 시민의 소리에 귀기울입니다.</p>
+                        </h2>
+                        <div class="sns">
+                            <a class="facebook" href="#"></a>
+                            <a class="twitter" href="#"></a>
+                            <a class="blog" href="#"></a>
+                        </div>
+                        <div class="civil_main">
+                            <dl class="cmain1">
+                                <dt>온라인민원신청</dt>
+                                <dd>각종 민원이나 궁금하신 사항을<br>
+                                    게재하시면 성심성의껏 신속히<br>
+                                    답변드리겠습니다.
+                                </dd>
+                            </dl>
+                            <dl class="cmain2">
+                                <dt>행복제안</dt>
+                                <dd>아산시 발전을 위하여<br>
+                                    창의적인 개선방안을<br>
+                                    올려주세요.
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!-- //.civil -->
+                    <div class="cst_right">
+                        <a href="#">
+                            <img src="images/zovut1t2.png" alt="오른쪽배너">
+                        </a>
+                    </div>
+                    <!-- //.cst_right -->
+                </div>
+                <!-- //.cst_t -->
+                <div class="cst_m">
+                    <ul class="cstm_menu">
+                        <li><a class="icon1" href="#">인구현황<br>()</a></li>
+                        <li><a class="icon1" href="#">아산시<br>상징물</a></li>
+                        <li><a class="icon2" href="#">정보공개</a></li>
+                        <li><a class="icon3" href="#">예산서</a></li>
+                        <li><a class="icon4" href="#">아산뉴스</a></li>
+                    </ul>
+                    <!-- //.csm_menu -->
+                    <ul class="cstm_tab tabmenu">
+                        <li class="on">
+                            <a href="#">공지사항</a>
+                            <ul>
+                                <li>
+                                    <a href="#">1아산사랑상품권 가맹점 리스트입니다.</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018년 추석맞이 아산사랑상품권 할인판매 행사 실시</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산살이학교(두발로 떠나는 아산,소소한 행복여행) 수강생 모집</a>
+                                    <i>09-04</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-6</span>제 14회 아산시 어머니 생활체육대회 접수안내</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-13</span>역사학자 이덕일 초청강연(2018.9월 행복아산 시민 아카데미)</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산청백서당 고전강좌 제3기 수강생 모집</a>
+                                    <i>09-02</i>
+                                </li>
+                                <li>
+                                    <a href="#">"자기혈관 숫자알기, 레드써클 캠페인"</a>
+                                    <i>09-01</i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">보도자료</a>
+                            <ul>
+                                <li>
+                                    <a href="#">2아산사랑상품권 가맹점 리스트입니다.</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018년 추석맞이 아산사랑상품권 할인판매 행사 실시</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산살이학교(두발로 떠나는 아산,소소한 행복여행) 수강생 모집</a>
+                                    <i>09-04</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-6</span>제 14회 아산시 어머니 생활체육대회 접수안내</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-13</span>역사학자 이덕일 초청강연(2018.9월 행복아산 시민 아카데미)</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산청백서당 고전강좌 제3기 수강생 모집</a>
+                                    <i>09-02</i>
+                                </li>
+                                <li>
+                                    <a href="#">"자기혈관 숫자알기, 레드써클 캠페인"</a>
+                                    <i>09-01</i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">채용/시험</a>
+                            <ul>
+                                <li>
+                                    <a href="#">3아산사랑상품권 가맹점 리스트입니다.</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018년 추석맞이 아산사랑상품권 할인판매 행사 실시</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산살이학교(두발로 떠나는 아산,소소한 행복여행) 수강생 모집</a>
+                                    <i>09-04</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-6</span>제 14회 아산시 어머니 생활체육대회 접수안내</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-13</span>역사학자 이덕일 초청강연(2018.9월 행복아산 시민 아카데미)</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산청백서당 고전강좌 제3기 수강생 모집</a>
+                                    <i>09-02</i>
+                                </li>
+                                <li>
+                                    <a href="#">"자기혈관 숫자알기, 레드써클 캠페인"</a>
+                                    <i>09-01</i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">고시공고</a>
+                            <ul>
+                                <li>
+                                    <a href="#">4아산사랑상품권 가맹점 리스트입니다.</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018년 추석맞이 아산사랑상품권 할인판매 행사 실시</a>
+                                    <i>09-05</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산살이학교(두발로 떠나는 아산,소소한 행복여행) 수강생 모집</a>
+                                    <i>09-04</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-6</span>제 14회 아산시 어머니 생활체육대회 접수안내</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#"><span>D-13</span>역사학자 이덕일 초청강연(2018.9월 행복아산 시민 아카데미)</a>
+                                    <i>09-03</i>
+                                </li>
+                                <li>
+                                    <a href="#">2018 아산청백서당 고전강좌 제3기 수강생 모집</a>
+                                    <i>09-02</i>
+                                </li>
+                                <li>
+                                    <a href="#">"자기혈관 숫자알기, 레드써클 캠페인"</a>
+                                    <i>09-01</i>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- //.csm_tab -->
+                    <div class="cstm_right">
+                        <div class="csmr_search">
+                            <div class="csmr_employee">
+                                <h2>
+                                    직원검색
+                                    <span class="e_bgline">
+                                        <i class="e_icon"></i>
+                                    </span>
+                                </h2>
+                                <div class="search_box">
+                                    <select class="employee" name="employee" id="">
+                                        <option value="직원명">직원명</option>
+                                        <option value="업무명">업무명</option>
+                                        <option value="팀명">팀명</option>
+                                        <option value="직급">직급</option>
+                                    </select>
+                                    <input class="csmrs_bar" type="text">
+                                    <input class="csmrs_btn" type="submit">
+                                </div>
+                            </div>
+                            <!-- //.csmr_employee -->
+                            <a class="e_map" href="#">
+                                <span>조직도</span>
+                                <em>바로가기</em>
+                            </a>
+                        </div>
+                        <!-- //.csmr_search -->
+                        <ul class="csmr_tab">
+                            <li>
+                                <a class="bg" href="#">시민</a>
+                                <ul class="on">
+                                    <li><a class="icon1" href="#">통합예약</a></li>
+                                    <li><a class="icon2" href="#">민원24</a></li>
+                                    <li><a class="icon3" href="#">여권민원</a></li>
+                                    <li><a class="icon4" href="#">민원서식</a></li>
+                                    <li><a class="icon5" href="#">교통정보</a></li>
+                                    <li><a class="icon6" href="#">민방위</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">사업자</a>
+                                <ul>
+                                    <li><a class="icon1" href="#">통합예약</a></li>
+                                    <li><a class="icon2" href="#">민원24</a></li>
+                                    <li><a class="icon3" href="#">여권민원</a></li>
+                                    <li><a class="icon4" href="#">민원서식</a></li>
+                                    <li><a class="icon5" href="#">교통정보</a></li>
+                                    <li><a class="icon6" href="#">민방위</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">관광객</a>
+                                <ul>
+                                    <li><a class="icon1" href="#">통합예약</a></li>
+                                    <li><a class="icon2" href="#">민원24</a></li>
+                                    <li><a class="icon3" href="#">여권민원</a></li>
+                                    <li><a class="icon4" href="#">민원서식</a></li>
+                                    <li><a class="icon5" href="#">교통정보</a></li>
+                                    <li><a class="icon6" href="#">민방위</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- //.csmr_tab -->
+                    </div>
+                    <!-- //.csm_right -->
+                </div>
+                <!-- //.cst_m -->
+                <div class="cst_l">
+                    <ul class="cstl_circle">
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon01.png" alt="">
+                            </a>
+                            <p>자치법규</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon02.png" alt="">
+                            </a>
+                            <p>통합예약</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon05.png" alt="">
+                            </a>
+                            <p>시티투어</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon11.png" alt="">
+                            </a>
+                            <p>시설관리공단</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon05.png" alt="">
+                            </a>
+                            <p>마중버스</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_circle_icon06.png" alt="">
+                            </a>
+                            <p>계약정보공개</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //.cst_l -->
+            </div>
+            <!-- //.csection_top -->
+        </div>
+        <div class="csection_middle">
+            <h2>
+                <img src="images/smart_bg.jpg" alt="">
+                <strong>아산소식</strong>
+                <span>아산시 소식을 한눈에 보여드립니다</span>  
+            </h2>
+            <ul class="csm_tab">
+                <li class="on">
+                    <a href="#">전체<span></span></a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">보도자료</a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">시정갤러리</a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">행사소식</a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">영상소식</a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure class="img_box">
+                                    <em>교육·복지</em>
+                                    <img src="images/20180905-131405.jpg" alt="">
+                                    <figcaption>아산시 산림과, 교과서 안의 산림교육 실시</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="plusbtn" href="#">+ 더보기</a>
+            <!-- //.csm_tab -->
+        </div>
+        <!-- //.csection_middle -->
+        <div class="csection_last">
+            <div class="csl_top">
+                <div class="csl_sns">
+                    <a href="#" class="sns_blog">블로그</a>
+                    <span class="sns_r">
+                        <a href="#">
+                            <img src="images/sns_icon01.png" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="images/sns_icon02.png" alt="twitter">
+                        </a>
+                        <a href="#">
+                            <img src="images/sns_icon03.png" alt="youtube">
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="csl_rolling">
+                <ul class="fslider rolling_bn">
+                    <li>
+                        <a href="#">
+                            <div class="csl_img">
+                                <img src="images/cl_rb1.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>아산시에 바라는 정책을 직접 제안해주세요</dt>
+                                <dd>2018-08-30</dd>
+                            </dl>
+                            <img class="more" src="images/sns_go.png" alt="더보기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="csl_img">
+                                <img src="images/cl_rb2.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>아산시에 바라는 정책을 직접 제안해주세요</dt>
+                                <dd>2018-08-30</dd>
+                            </dl>
+                            <img class="more" src="images/sns_go.png" alt="더보기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="csl_img">
+                                <img src="images/cl_rb3.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>아산시에 바라는 정책을 직접 제안해주세요</dt>
+                                <dd>2018-08-30</dd>
+                            </dl>
+                            <img class="more" src="images/sns_go.png" alt="더보기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="csl_img">
+                                <img src="images/cl_rb4.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>아산시에 바라는 정책을 직접 제안해주세요</dt>
+                                <dd>2018-08-30</dd>
+                            </dl>
+                            <img class="more" src="images/sns_go.png" alt="더보기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="csl_img">
+                                <img src="images/cl_rb5.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>아산시에 바라는 정책을 직접 제안해주세요</dt>
+                                <dd>2018-08-30</dd>
+                            </dl>
+                            <img class="more" src="images/sns_go.png" alt="더보기">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- //.csl_rolling -->
+        </div>
+        <!-- csection_last -->
+    </div>
+    <!-- //.container -->
+    <div class="footer">
+        <div class="footer_top">
+            <ul>
+                <li><a href="#">행정·법규·세금</a></li>
+                <li><a href="#">민원·부동산·생활</a></li>
+                <li><a href="#">시설·유관기관</a></li>
+                <li><a href="#">사업소</a></li>
+                <li><a href="#">읍·면·동</a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <h2><img src="images/foot_logo.jpg" alt=""></h2>
+            <div class="f_text">
+                <ul>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">저작권정책</a></li>
+                    <li><a href="#">시민의노래</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <li><a href="#">배너광장</a></li>
+                </ul>
+                <address>(31512) 충남 아산시 시민로 456 아산시콜센터 1577-6611</address>
+                <p>ⓒ ASAN-SI, ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

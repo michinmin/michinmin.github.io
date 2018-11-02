@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="format-detection" content="telephone=no, address=no, email=no, date=no"> -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Heo Ji Yeon" />
+	<meta name="description" content="Heo Ji Yeon's Portfolio" />
+	<meta name="keywords"  content="Heo Ji Yeon's Portfolio, HTML5, CSS3, Javascript, Jquery, Photoshop, Illustrator" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Heo Ji Yeon's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<script type="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/common/uxDetect.min.js"></script>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/plugin/respond.min.js"></script>
+		<script type="text/javascript" src="js/plugin/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<!-- lt = less than -->
+</head>
+<body>
+	<!-- <div class="menu">
+		<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open">
+		<label class="menu-open-button" for="menu-open">
+			<span class="hamburger hamburger-1"></span>
+			<span class="hamburger hamburger-2"></span>
+			<span class="hamburger hamburger-3"></span>
+		</label>
+		<a href="#section0" class="menu-item"><i class="mhome"></i></a>
+		<a href="#section1" class="menu-item"><i class="mskill"></i></a>
+		<a href="#section2" class="menu-item"><i class="mport"></i></a>
+	</div> -->
+	<nav class="nav">
+		<a href="javascript:;" class="menu-open-button">
+			<span class="hamburger hamburger-1"></span>
+			<span class="hamburger hamburger-2"></span>
+			<span class="hamburger hamburger-3"></span>
+		</a>
+		<ul class="gnb" id="menu">
+			<li data-menuanchor="home" class="active"><a href="#home"><i></i><span>HOME</span></a></li>
+			<li data-menuanchor="skill"><a href="#skill"><i></i><span>SKILL</span></a></li>
+			<li data-menuanchor="portfolio"><a href="#portfolio"><i></i><span>PORTFOLIO</span></a></li>
+		</ul>
+	</nav>
+	<!-- //.nav -->
+	<main id="fullpage" class="container">
+		<section class="home section" id="section0">
+			<div class="titbox">
+				<h1 class="focus-in-contract">Heo Ji Yeon</h1>
+				<p class="text-focus-in">Дизайнер удобных интерфейсов (UX/UI)<br>портфолио</p>
+				<!-- <p>портфолио</p> -->
+			</div>
+		</section>
+		<!-- //.home -->
+		<section class="skill section" id="section1">
+			<div class="skillbox">
+				<h2 class="item title">
+					<span>SKILL</span>
+					<img src="images/reindeer.png" alt="순록이미지">
+					<!-- <div id="reindeerPath"></div> -->
+					<!-- <div id="wolfPath"></div> -->
+				</h2>
+				<div class="item photoshop">
+					<img src="images/photoshop.png" alt="포토샵">
+					<p class="rp">Photoshop</p>
+				</div>
+				<div class="item illust">
+					<img src="images/illust.png" alt="일러스트">
+					<p class="rp">Illustrator</p>
+				</div>
+				<div class="item html">
+					<code class="rp">
+						<em>&lt;!DOCTYPE html&gt;</em>
+						<em>&lt;html lang="ko"&gt;</em>
+					</code>
+				</div>
+				<div class="item css">
+					<code class="rp">
+						<em>css{</em>
+						<em class="nbsp">margin: 0 auto;</em>
+						<em class="nbsp">padding: 10px;</em>
+						<em class="nbsp">color: #6f6f6f;</em>
+						<em>}</em>
+					</code>
+				</div>
+				<div class="item jquery">
+					<img src="images/jquery.png" alt="제이쿼리">
+					<code class="rp">
+						<em>$(function(){</em>
+						<em class="nbsp">$('p').click(function(){</em>
+						<em class="nbsp2">$(this).css('color','red');</em>
+						<em class="nbsp">});</em>
+						<em>});</em>
+					</code>
+				</div>
+				<div class="item js">
+					<span class="rp">{.js}</span>
+					<code class="rp">
+						<em>var script = javascript;</em>
+					</code>
+				</div>
+				<div class="item russia">
+					<img src="images/russia.png" alt="러시아">
+					<p class="rp">Русский Язык</p>
+				</div>
+			</div>
+			<!-- //.skillbox  -->
+			<ul class="skill_list">
+				<li>·Photoshop</li>
+				<li>·Illustrator</li>
+				<li>·Html</li>
+				<li>·CSS</li>
+				<li>·jQuery</li>
+				<li>·Javascript</li>
+				<li>·TORFL (russia)</li>
+			</ul>
+			<img src="images/women.png" alt="여자옆모습" class="img_women">
+		</section>
+		<!-- //.skill -->
+		<section class="portfolio section" id="section2">
+			<div class="tsection">
+				<img src="images/owl.png" alt="부엉이" class="img_owl">
+				<!-- <div id="owlPath" class="img_owl"></div> -->
+				<h2>PORTFOLIO</h2>
+				<p>В портфолио представлены дизайнерские</p>
+				<p>работы разных стилей и направлений,</p>
+				<p>которые выполнялись в проектах создания сайтов.</p>
+			</div>
+			<div class="slickslide">
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="https://michinmin.github.io/portfolio/asan_city" target="_blank" title="새창열림">
+							<p class="rp title">아산시청</p>
+							<p class="rp url">https://www.asan.go.kr</p>
+							<p class="rp skills">-skill-<br>html,css,jQuery<br>javascript</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="https://michinmin.github.io/portfolio/momntalk" target="_blank" title="새창열림">
+							<p class="rp title">맘앤톡</p>
+							<p class="rp url">https://www.momntalk.com</p>
+							<p class="rp skills">-skill-<br>html,css,jQuery<br>javascript</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="https://michinmin.github.io/portfolio/icim" target="_blank" title="새창열림">
+							<p class="rp title">ICIM 서브페이지&네비</p>
+							<p class="rp url">https://icim.nims.re.kr</p>
+							<p class="rp skills">-skill-<br>html,css</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="https://michinmin.github.io/portfolio/nmart" target="_blank" title="새창열림">
+							<p class="rp title">팀프로젝트</p>
+							<p class="rp url">psd file mark-up</p>
+							<p class="rp skills">-skill-<br>html,css</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="https://michinmin.github.io/portfolio/espoir-faq" target="_blank" title="새창열림">
+							<p class="rp title">eSpoir FAQ</p>
+							<p class="rp url">https://www.espoir.com</p>
+							<p class="rp skills">-skill-<br>html,css,jQuery<br>javascript</p>
+						</a>
+					</div>
+				</div>
+				<!-- <div class="sitem">
+					<div class="dotted_line">
+						<a href="#">
+							<p class="rp title">맘앤톡</p>
+							<p class="rp url">https://www.momntalk.com</p>
+							<p class="rp skills">-skill-<br>html,css,jQuery<br>javascript</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="#">
+							<p class="rp title">ICIM 서브페이지&네비</p>
+							<p class="rp url">https://icim.nims.re.kr</p>
+							<p class="rp skills">-skill-<br>html,css</p>
+						</a>
+					</div>
+				</div>
+				<div class="sitem">
+					<div class="dotted_line">
+						<a href="#">
+							<p class="rp title">팀프로젝트</p>
+							<p class="rp url">psd file mark-up</p>
+							<p class="rp skills">-skill-<br>html,css</p>
+						</a>
+					</div>
+				</div>
+			</div> -->
+			<!-- //.slickslide -->
+		</section>
+		<!-- //.portfolio -->
+	</main>
+	<!-- //.main -->
+	<footer class="footer">
+		<h2>contact</h2>
+		<div class="icons">
+			<a class="facebook" target="_blank" href="https://www.facebook.com/kukumom">facebook</a>
+			<a class="email" href="mailto:michinmini@naver.com">email</a>
+			<a class="tel" href="tel:01051043194">tel</a>
+		</div>
+	</footer>
+	<!-- //.footer -->
+	<div class="menuclone">
+
+	</div>
+	
+
+	<script type="text/javascript" src="js/plugin/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/plugin/fullpage.3.0.2.min.js"></script>
+	<!-- <script type="text/javascript" src="https://alvarotrigo.com/fullPage/fullpage.js"></script> -->
+	<!-- <script type="text/javascript" src="js/plugin/fullpage.extensions.min.js"></script> -->
+	<script type="text/javascript" src="js/plugin/slick-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.lazylinepainter-1.7.0.min.js"></script>
+	<script type="text/javascript" src="js/common/svgdata.js"></script>
+	<script type="text/javascript" src="js/common/jquerys.js"></script>
+	<script>
+		$( "body" ).append( "<div class='message'><div>현재 보고계신 페이지는 크롬에 최적화 되어있습니다.</div></div>" );
+	</script>
+
+	<!--Start of Tawk.to Script-->
+	<!--<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/5bd7aa9a476c2f239ff6831b/default';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>-->
+	<!--End of Tawk.to Script-->
+</body>
+</html>

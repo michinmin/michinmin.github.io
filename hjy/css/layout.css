@@ -1,0 +1,585 @@
+
+html, body{
+    height:100%
+}
+/*wrap*/
+.wrap{
+    position: relative;
+    width:100%;
+}
+/*nav-menu*/
+.nav{
+    position:fixed;
+    left: 84px;
+    bottom: 220px;
+    width:auto;
+    height:auto;
+    z-index: 100;
+}
+.nav::before{
+    content: "menu";
+    display: block;
+    margin-bottom: 16px;
+    color: #393e46;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+}
+.nav a{
+    display: block;
+    height: 66px;
+    margin-bottom: 36px;
+    color: #393e46;
+    font-size: 20px;
+    font-style: italic; 
+    font-weight: bold;
+}
+.nav a:last-child{
+    margin-bottom:0;
+}
+.nav a img{
+    display: inline-block;
+    width:46px;
+    height:46px;
+}
+.nav a span{
+    display: none;
+    padding-top:10px;
+    font-size: 22px;
+    letter-spacing: 1.8px;
+}
+/* nav-hover*/
+.nav a:hover span{
+    margin-bottom: 20px;
+}
+.nav a:hover img{
+    display: none;
+}
+/* visual*/
+.visual{
+    width: 100%;
+    height: 1080px;
+    /* background:#eeeeee; */
+    /* background: url(../Untitled-1.png) no-repeat 0 0; */
+    background-position: 50% 50%;
+}
+
+h1{
+    display: inline-block;
+    /* top: 4%;
+    left: 20%;
+    transform: translate(-50%, -50%); */
+    margin-top: 60px;
+    margin-left: 94px;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    font-family: "BodoniFLF";
+ }
+/*.visual-leftbox*/
+.leftbox{
+    display: block;
+    width: 46px;
+    height: 84px;
+    margin-top: 100px;
+    margin-left: 94px;
+    /* background: darkgoldenrod; */
+}
+.leftbox img{
+    width:14px;
+    height:82px;
+}
+/*.visual-rightbox*/
+.visual::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.rightbox{
+    float: right;
+    width:46px;
+    height:84px;
+    margin-top:450px;
+    margin-right: 94px;
+    padding-top:126px;
+    padding-left:32px;
+    /* background: darkgoldenrod; */
+}
+.rightbox img{
+    width:14px;
+    height:82px;
+}
+
+/* portfolio*/
+.portfolio{
+    width:100%;
+    height: 960px;
+    margin: 0 auto;
+    padding-left:376px; 
+    background:#eeeeee;
+}
+.portfolio::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*portfolio-pbox 감싸는 부분*/
+.pbox{
+    width: 100%;
+    height: 960px;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* background: #333; */
+}
+/*portfolio-pmenu*/
+.pmenu{
+    display: block;
+    width: 402px;
+    height: 36px;
+    margin: 0 auto;
+    /* background: darkgoldenrod; */
+}
+.pmenu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*portfolio-plist*/
+.plist{
+    float: left;
+    width: 402px;
+    margin: 0 auto;
+}
+
+.plist dt{
+    float: left;
+    margin-right:27px;
+    background: #393e46;
+
+}
+.plist dt:last-child{
+    margin-right: 0px;
+}
+.plist dt a{
+    padding: 6px 56px;
+    color: #eeeeee;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+/*portfolio-plist : hover*/
+/* .plist dt:hover a{
+    color:#00adb5;
+    border-top: 2px solid #00adb5;
+    border-bottom: 2px solid #00adb5;
+    transition: all .5s;
+} */
+
+/*gallery*/
+.gallery{
+    width: 100%;
+    height: 500px;
+    margin-top:120px;
+    /* background: darkslategrey; */
+}
+.swslider{
+    width:100%;
+    height:360px;
+}
+/* .swslider*/
+.gallery .swiper-container{
+    width:100%;
+    height: 100%;
+}
+.gallery .swiper-wrapper{
+    width: 100%;
+    height: 360px;
+    margin:120px 0;
+}
+.gallery .swiper-wrapper .swiper-slide{
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* 페이징부분 */
+.gallery .swiper-container-horizontal > .swiper-pagination-bullets, 
+.gallery .swiper-pagination-custom, 
+.gallery .swiper-pagination-fraction{
+    bottom:auto;
+    top:0;
+}
+.gallery .swiper-pagination-bullet{
+    background-image: url('../images/swsllider/fish.png');
+    background-size: 50px 32px;
+    width: 50px;
+    height:32px;
+}
+/* .swiper-pagination-bullet-페이징 버튼 비동작시 */
+.gallery .swiper-pagination-bullet-active {
+    width: 50px;
+    height: 24px;
+    background-image: url(../images/swsllider/fish-bones.png);
+    background-size: 50px 24px;
+}
+/* .swiper-pagination-bullet-페이징 버튼 동작시*/
+
+/* .gallery-button*/
+.gallery .swiper-button-next,
+.gallery .swiper-button-prev{
+    top:22px;
+    bottom: auto;
+    z-index: 20;
+}
+.gallery .swiper-button-prev{
+    background-image: url(../images/swsllider/prev.png);
+    background-size: cover;
+    width:44px;
+    height: 30px;
+    left: 60px;
+    right:auto;
+}
+/* .gallery- .swiper-button-prev 이전버튼*/
+.gallery .swiper-button-next,
+.gallery .swiper-button-prev{
+    top:22px;
+    bottom: auto;
+    z-index: 20;
+}
+.gallery .swiper-button-next{
+    background-image: url(../images/swsllider/next.png);
+    background-size: cover;
+    width:44px;
+    height: 30px;
+    right: 60px;
+    left: auto;
+}
+/* .gallery- .swiper-button-next 다음버튼*/
+
+/*portotype*/
+.prototype{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.pbtn{
+    display: block;
+    position: absolute;
+    width: 360px;
+    height:50px;
+    top:44%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+/* .pbtn a{
+    display:inline-block; 
+    width: 360px;
+    height:50px;
+    padding-top:8px;
+    color:  #eee;
+    font-size: 26px;
+    font-style: italic;
+    text-align:center;
+    letter-spacing: 2px;
+} */
+
+.pbtn a{
+    display:inline-block; 
+    width: 360px;
+    height: 70px;
+    padding: 16px 0;
+    font-size: 26px;
+    color: #00adb5;
+    letter-spacing: 12px;
+    border-top: 2px solid #00adb5;
+    border-bottom: 2px solid #00adb5;
+}
+/*portotype-.pbtnb .pbtn:hover*/
+/* .pbtn:hover a{
+    color: #00adb5;
+    letter-spacing: 9px;
+    border-top: 2px solid #00adb5;
+    border-bottom: 2px solid #00adb5;
+    transition: all .5s;
+} */
+
+/*portotype-.pbg-백그라운드 배경*/
+.pbg{
+    width: 100%;
+    height: 200px;
+    background: url(../images/prototypebg.png) no-repeat 0 0 fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.pbgo{
+    width: 100%;
+    height: 200px;
+    background:rgba(0,0,0, .8)
+}
+/* skill */
+.skill{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 120px;
+    background: #eeeeee;
+}
+/*skill-skillbox*/
+.skillbox{
+    position: relative;
+    display: block;
+    width:580px;
+    height: 262px;
+    margin: 0 auto;
+}
+/*skill-skillbox-illustratot*/
+.c1ai{
+    float: left;
+    width: 100px;
+    height: 110px;
+    margin-right:60px;
+    margin-bottom:80px;
+    text-align: center;
+}
+.c1ai img{
+    width:70px;
+    height:83px;
+    margin-left:16px;
+    margin-bottom: 10px;
+}
+.c1ai span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/*skill-skillbox-photoshop*/
+.c2ps{
+    float: left;
+    width: 100px;
+    height: 110px;
+    margin-right:60px;
+    margin-bottom:80px;
+    text-align:center;
+}
+.c2ps img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: 13px;
+}
+.c2ps span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/*skill-skillbox-html*/
+.c3html{
+    float: left;
+    width: 100px;
+    height: 110px;
+    margin-right:60px;
+    margin-bottom:80px;
+    text-align:center;
+}
+.c3html img{
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.c3html span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* skill-skillbox-c4css */
+.c4css{
+    float: left;
+    width: 100px;
+    height: 96px;
+    margin-bottom:80px;
+    text-align:center;
+}
+.c4css img{
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.c4css span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* skill-skillbox-c5js */
+.c5js{
+    float: left;
+    width: 100px;
+    height: 96px;
+    margin-right:60px;
+    text-align:center;
+}
+.c5js img{
+    width:70px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.c5js span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* skill-skillbox-c6jq */
+.c6jq{
+    float: left;
+    width: 100px;
+    height: 96px;
+    margin-right:60px;
+    text-align:center;
+}
+.c6jq img{
+    width:70px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.c6jq span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* skill-skillbox-c7gitgub */
+.c7github{
+    float: left;
+    width: 100px;
+    height: 96px;
+    margin-right:60px;
+    text-align:center;
+}
+.c7github img{
+    width:70px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.c7github span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* skill-skillbox-c8word */
+.c8word{
+    float: left;
+    width: 100px;
+    height: 96px;
+    text-align:center;
+}
+.c8word img{
+    width:70px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.c8word span{
+    display: block;
+    font-size: 16px;
+    color:#00adb5;
+}
+
+/* footer*/
+.footer{
+    width:100%;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left:132px;
+    background: #393e46;
+}
+.footer{
+    content:"";
+    display: block;
+    clear:both;
+}
+/* footer - fbox*/
+.fbox{
+    width:1270px;
+    height: 92px;
+    margin: 0 auto;
+}
+.fbox::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+h3{
+    float: left;
+    margin-right: 120px;
+    font-size:24px;
+    letter-spacing: 2px;
+    color: #eeeeee;
+}
+/* footer-tel*/
+.tel{
+    float: left;
+    width:350px;
+    height:30px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+.tel img{
+    width: 18px;
+    height:30px;
+    margin-right: 20px;
+}
+.tel span {
+    display: inline-block;
+    margin-top:6px;
+    color: #eeeeee;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* footer-email*/
+.email{
+    float: none;
+    width:350px;
+    height:30px;
+    /* margin-top:60px; */
+    margin-left:240px;
+}
+.email img{
+    width: 30px;
+    height:20px;
+    margin-top:4px;
+    margin-right: 20px;
+}
+.email span{
+    display: inline-block;
+    margin-top:6px;
+    color: #eeeeee;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+/* footer-p_box*/
+.p_box{
+    width:1270px;
+    height: 68px;
+    margin: 0 auto;
+    margin-top:30px;
+    border-top: 1px solid #bdbdbd;
+}
+p{
+    margin-top:18px;
+    margin-left:234px;
+    font-size:14px;
+    color: #eeeeee;
+    letter-spacing: 2px;  
+}
