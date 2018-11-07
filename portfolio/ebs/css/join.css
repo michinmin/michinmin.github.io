@@ -1,6 +1,9 @@
 a:focus{
     outline: 1px solid #052e6c;
 }
+input:focus{
+    outline: 1px solid #052e6c;
+}
 /* header */
 header{
     width: 100%;
@@ -158,4 +161,5 @@ header h1 .join_us{
     line-height: 23px;
     background: #fff;
     border: 1px solid #042f6c;
+    cursor: pointer;
 }
