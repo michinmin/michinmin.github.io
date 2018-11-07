@@ -1,3 +1,6 @@
+a:focus{
+    outline: 1px solid #052e6c;
+}
 /* header */
 header{
     width: 100%;
@@ -41,9 +44,118 @@ header h1 .join_us{
 .container .subtitle h2{
     display: inline-block;
     width: 300px;
-    height: 23px;
+    height: 45px;
     margin-top: 10px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 20px;
-    background: url(../images/common/icon_set.png) no-repeat -588px -577px;
+    font-size: 17px;
+    font-weight: 600;
+    background: url(../images/common/icon_set.png) no-repeat -588px -557px;
+}
+/* join_table */
+.join_table{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    border-top: 2px solid #bbbbbb;
+}
+.join_table tbody th{
+    padding: 16px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid #d9d9d9;
+    background: #f6f6f6;
+}
+.join_table tbody td{
+    padding: 14px 10px;
+    color: #7a7a7a;
+    background: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+}
+.join_table tbody td .textbox{
+    width: 50%;
+    height: 35px;
+    padding: 0 5px;
+    line-height: 20px;
+    font-size: 16px;
+    line-height: 35px;
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+.join_table tbody td .emailbox{
+    width: 23.7%;
+    height: 35px;
+    padding: 0 5px;
+    line-height: 20px;
+    font-size: 16px;
+    line-height: 35px;
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+/* btn-css */
+.btn_click{
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    padding: 7px 30px;
+    color: #3d7cc3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #3d7cc3;
+    background: #fff;
+}
+.rbtn{
+    width: 23px;
+    height: 35px;
+    padding: 0 5px;
+    line-height: 20px;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+.chbtn{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    vertical-align: middle;
+}
+.notice{
+    font-size: 14px;
+    color: #2eaa08;
+    padding: 5px 0;
+}
+.fnotice{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #999;
+}
+/* submit-btn */
+.fbtn_area{
+    width: 1024px;
+    margin: 50px 0; 
+    text-align: center;
+}
+.subbtn{
+    display: inline-block;
+    text-indent: -999em;
+}
+.subbtn_show{
+    display: inline-block;
+    padding: 12px 60px;
+    color: #042f6c;
+    font-size: 20px;
+    line-height: 23px;
+    background: #fff;
+    border: 1px solid #042f6c;
 }
