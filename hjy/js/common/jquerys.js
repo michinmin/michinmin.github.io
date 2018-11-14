@@ -41,6 +41,14 @@
 							$('.home h1').addClass('focus-in-contract');
 							$('.home p').addClass('text-focus-in');
 						}
+						if(destination.index == 1){
+							document.querySelector('.img_women').style.opacity = 1;
+						}
+				
+						//back to original state
+						else if(origin && origin.index == 1){
+							document.querySelector('.img_women').style.opacity = 0;
+						}
 					},
 					onLeave: null,
 					afterRender: function(){

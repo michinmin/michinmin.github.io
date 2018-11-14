@@ -419,6 +419,8 @@ main{
 	bottom: 0;
 	right: 0;
 	width: 31%;
+	opacity: 0;
+	transition: all 1.5s;
 }
 /* portfolio - top */
 .portfolio{
