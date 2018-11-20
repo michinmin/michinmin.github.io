@@ -163,4 +163,5 @@
 			skillList.eq(idx).addClass('act').siblings().removeClass('act');
 		});
 	};
+	
 })(jQuery);
